@@ -52,12 +52,12 @@ export const mockProperties: Property[] = [
     rentalYield: 6.8,
     crimeRate: 1.5,
     nearbyServices: [
-      { type: 'bank', name: 'Bankinter', distance: 0.2, lat: 43.3645, lng: -5.8519 },
-      { type: 'supermarket', name: 'Alimerka', distance: 0.3, lat: 43.3661, lng: -5.8508},
-      { type: 'school', name: 'Colegio La Compañía de Jesús', distance: 0.5, lat: 43.3654, lng: -5.8504 },
-      { type: 'healthcare', name: 'Centro Médico Campoamor', distance: 0.4, lat: 43.3656, lng: -5.8520 },
-      { type: 'pharmacy', name: 'Farmacia Cavia', distance: 0.1, lat: 43.3649, lng: -5.8504 },
-      { type: 'transport', name: 'Parada de Bus', distance: 0.3, lat: 43.3648, lng: -5.8523 }
+      { type: 'bank', name: 'Bankinter', distance: 0.05, lat: 43.3645, lng: -5.8519 },
+      { type: 'supermarket', name: 'Alimerka', distance: 0.15, lat: 43.3661, lng: -5.8508 },
+      { type: 'school', name: 'Colegio La Compañía de Jesús', distance: 0.11, lat: 43.3654, lng: -5.8504 },
+      { type: 'healthcare', name: 'Centro Médico Campoamor', distance: 0.08, lat: 43.3656, lng: -5.8520 },
+      { type: 'pharmacy', name: 'Farmacia Cavia', distance: 0.10, lat: 43.3649, lng: -5.8504 },
+      { type: 'transport', name: 'Parada de Bus', distance: 0.06, lat: 43.3648, lng: -5.8523 }
     ]
   },
   {
@@ -84,66 +84,30 @@ export const mockProperties: Property[] = [
   },
   {
     id: '3', // Piso C
-    url: 'https://www.idealista.com/inmueble/11223344/',
-    title: 'Piso en Chamberí, Madrid',
-    price: 380000,
+    url: 'https://www.idealista.com/inmueble/109725657/',
+    title: 'Piso en Casco-Centro Histórico, Oviedo',
+    price: 229999,
     location: {
-      lat: 40.4365,
-      lng: -3.7038,
-      address: 'Calle Fuencarral, 78, Madrid',
-      zone: 'Chamberí'
+      lat: 43.3559,
+      lng: -5.8481,
+      address: 'Calle Sacramento 24, Oviedo',
+      zone: 'Casco Antiguo'
     },
-    rentalYield: 4.5,
-    crimeRate: 2.8,
+    rentalYield: 5.04,
+    crimeRate: 1.5,
     nearbyServices: [
-      { 
-        type: 'pharmacy', 
-        name: 'Farmacia Muñoz Degraín', 
-        distance: 0.1, 
-        lat: 43.3570654, 
-        lng: -5.8488769 
-      },
-      { 
-        type: 'school', 
-        name: 'IES Alfonso II', 
-        distance: 0.3, 
-        lat: 43.3566806, 
-        lng: -5.8508095 
-      },
-      { 
-        type: 'supermarket', 
-        name: 'Alimerka', 
-        distance: 0.2, 
-        lat: 43.3559241, 
-        lng: -5.8496651 
-      },
-      { 
-        type: 'transport', 
-        name: 'Parada de bus', 
-        distance: 2.8, 
-        lat: 43.3721163, 
-        lng: -5.8246176 
-      },
-      { 
-        type: 'healthcare', 
-        name: 'Centro de Salud La Lila', 
-        distance: 0.4, 
-        lat: 43.3591691, 
-        lng: -5.8469356 
-      },
-      { 
-        type: 'bank', 
-        name: 'Banco Santander', 
-        distance: 0.1, 
-        lat: 43.3570654, 
-        lng: -5.8488769 
-      }
+      { type: 'pharmacy', name: 'Farmacia Muñoz Degraín', distance: 0.14, lat: 43.3570654, lng: -5.8488769 },
+      { type: 'school', name: 'IES Alfonso II', distance: 0.23, lat: 43.3566806, lng: -5.8508095 },
+      { type: 'supermarket', name: 'Alimerka Muñoz Degraín', distance: 0.13, lat: 43.3559241, lng: -5.8496651 },
+      { type: 'transport', name: 'Parada Bus Gonzalez Besada', distance: 0.17, lat: 43.3564, lng: -5.8501 },
+      { type: 'healthcare', name: 'Centro de Salud La Lila', distance: 0.37, lat: 43.3591691, lng: -5.8469356 },
+      { type: 'bank', name: 'Banco Santander', distance: 0.14, lat: 43.3570654, lng: -5.8488769 }
     ]
   },
   {
-    id: '4', //Piso D
+    id: '4', // Piso D
     url: 'https://www.idealista.com/inmueble/109260462/',
-    title: 'Piso en Centro-Casco Histórico, Oviedo  ',
+    title: 'Piso en Centro-Casco Histórico, Oviedo',
     price: 219500,
     location: {
       lat: 43.3619,
@@ -154,12 +118,12 @@ export const mockProperties: Property[] = [
     rentalYield: 5.38,
     crimeRate: 1.5,
     nearbyServices: [
-      { type: 'pharmacy', name: 'Farmacia Plaza de América', distance: 0.1, lat: 43.3609344, lng: -5.8564839 },
-      { type: 'school', name: 'IES Aramo', distance: 0.2, lat: 43.3590022, lng: -5.8579508 },
-      { type: 'supermarket', name: 'Alimerka', distance: 0.1, lat: 43.3601467, lng: -5.8560365 },
-      { type: 'transport', name: 'Parada de bus', distance: 2.9, lat: 43.3721163, lng: -5.8246176 },
-      { type: 'healthcare', name: 'Centro Médico Asturias', distance: 0.5, lat: 43.3650911, lng: -5.8478916 },
-      { type: 'bank', name: 'Banco Sabadell', distance: 0.1, lat: 43.3607093, lng: -5.8598146 }
+      { type: 'pharmacy', name: 'Farmacia Plaza de América', distance: 0.13, lat: 43.3609344, lng: -5.8564839 },
+      { type: 'school', name: 'IES Aramo', distance: 0.37, lat: 43.3590022, lng: -5.8579508 },
+      { type: 'supermarket', name: 'Alimerka Dr. Alfredo Martínez', distance: 0.20, lat: 43.3601467, lng: -5.8560365 },
+      { type: 'transport', name: 'Parada Plaza de América', distance: 0.13, lat: 43.3611000, lng: -5.8568000 },
+      { type: 'healthcare', name: 'Centro Médico Asturias', distance: 0.71, lat: 43.3650911, lng: -5.8478916 },
+      { type: 'bank', name: 'Banco Sabadell', distance: 0.36, lat: 43.3607093, lng: -5.8598146 }
     ]
   },
   {
@@ -176,12 +140,12 @@ export const mockProperties: Property[] = [
     rentalYield: 6.34,
     crimeRate: 1.5,
     nearbyServices: [
-      { type: 'bank', name: 'Unicaja Banco', distance: 0.25, lat: 43.3569, lng: -5.8431 },
+      { type: 'bank', name: 'Unicaja Banco', distance: 0.13, lat: 43.3569, lng: -5.8431 },
       { type: 'supermarket', name: 'Carrefour Express', distance: 0.15, lat: 43.3576, lng: -5.8431 },
-      { type: 'school', name: 'Colegio CEIP San Lazaro', distance: 0.5, lat: 43.3559, lng: -5.8429 },
-      { type: 'healthcare', name: 'Centro de Salud de Otero', distance: 0.45, lat: 43.3544, lng: -5.8377 },
-      { type: 'pharmacy', name: 'Farmacia', distance: 0.2, lat: 43.3576, lng: -5.8431 },
-      { type: 'transport', name: 'Parada de Bus', distance: 0.35, lat: 43.3576, lng: -5.8431 }
+      { type: 'school', name: 'Colegio CEIP San Lazaro', distance: 0.17, lat: 43.3559, lng: -5.8429 },
+      { type: 'healthcare', name: 'Centro de Salud de Otero', distance: 0.42, lat: 43.3544, lng: -5.8377 },
+      { type: 'pharmacy', name: 'Farmacia', distance: 0.15, lat: 43.3576, lng: -5.8431 },
+      { type: 'transport', name: 'Parada de Bus (San Lázaro)', distance: 0.15, lat: 43.3576, lng: -5.8431 }
     ]
   },
   {
@@ -208,24 +172,24 @@ export const mockProperties: Property[] = [
   },
   {
     id: '7', // Piso I
-    url: 'https://www.idealista.com/inmueble/44556677/',
-    title: 'Dúplex en Salamanca, Madrid',
-    price: 680000,
+    url: 'https://www.idealista.com/inmueble/109685182/',
+    title: 'Piso en Llamaquique, Oviedo', 
+    price: 265000,
     location: {
-      lat: 40.4338,
-      lng: -3.6805,
-      address: 'Calle Velázquez, 54, Madrid',
-      zone: 'Salamanca'
+      lat: 43.3635,
+      lng: -5.841,
+      address: 'Calle Azcarraga, Llamaquique, Oviedo',
+      zone: 'Casco Antiguo'
     },
-    rentalYield: 3.7,
-    crimeRate: 1.0,
+    rentalYield: 3.3,
+    crimeRate: 1.5,
     nearbyServices: [
-      { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
-      { type: 'supermarket', name: 'Sánchez Romero', distance: 0.22, lat: 40.4358, lng: -3.6788 },
-      { type: 'school', name: 'British Council School', distance: 0.6, lat: 40.4392, lng: -3.6755 },
-      { type: 'healthcare', name: 'Hospital Universitario', distance: 0.8, lat: 40.4410, lng: -3.6735 },
-      { type: 'pharmacy', name: 'Farmacia Velázquez', distance: 0.12, lat: 40.4349, lng: -3.6815 },
-      { type: 'transport', name: 'Metro Velázquez', distance: 0.25, lat: 40.4315, lng: -3.6835 }
+      { type: 'pharmacy', name: 'Farmacia Ldo. Pérez', distance: 0.25, lat: 43.3637186, lng: -5.8440887 },
+      { type: 'school', name: 'Instituto Santa María del Naranco', distance: 0.38, lat: 43.3637011, lng: -5.8457342 },
+      { type: 'supermarket', name: 'Alimerka Foncalada', distance: 0.19, lat: 43.3639642, lng: -5.8433422 },
+      { type: 'transport', name: 'Parada Calle Azcárraga', distance: 0.05, lat: 43.3633000, lng: -5.8415000 },
+      { type: 'healthcare', name: 'Centro Médico Asturias', distance: 0.58, lat: 43.3650911, lng: -5.8478916 },
+      { type: 'bank', name: 'CaixaBank', distance: 0.25, lat: 43.3637186, lng: -5.8440887 }
     ]
   },
   {
