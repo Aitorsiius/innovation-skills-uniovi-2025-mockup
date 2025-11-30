@@ -87,6 +87,9 @@ interface Translations {
   zoneList: string;
   madridZones: string;
   selectZoneToEdit: string;
+  districts: string;
+  neighborhoods: string;
+  district: string;
   editZoneName: string;
   adjustRateDescription: string;
   level: string;
@@ -187,6 +190,9 @@ const translations: Record<Language, Translations> = {
     zoneList: 'Lista de Zonas',
     madridZones: 'Zonas de Madrid',
     selectZoneToEdit: 'Selecciona una zona para editar',
+    districts: 'Distritos',
+    neighborhoods: 'barrios',
+    district: 'Distrito',
     editZoneName: 'Editar nombre de la zona',
     adjustRateDescription: 'Ajusta la tasa de criminalidad para esta zona',
     level: 'Nivel',
@@ -285,6 +291,9 @@ const translations: Record<Language, Translations> = {
     zoneList: 'Zone List',
     madridZones: 'Madrid Zones',
     selectZoneToEdit: 'Select a zone to edit',
+    districts: 'Districts',
+    neighborhoods: 'neighborhoods',
+    district: 'District',
     editZoneName: 'Edit zone name',
     adjustRateDescription: 'Adjust the crime rate for this zone',
     level: 'Level',
