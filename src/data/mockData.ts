@@ -66,10 +66,10 @@ export const mockProperties: Property[] = [
     title: 'Apartamento en Vallecas, Madrid',
     price: 180000,
     location: {
-      lat: 40.3897,
-      lng: -3.6511,
+      lat: 43.3598521,
+      lng: -5.8474118,
       address: 'Avenida de la Albufera, 120, Madrid',
-      zone: 'Vallecas'
+      zone: 'Casco Antiguo'
     },
     rentalYield: 5.8,
     crimeRate: 4.0,
@@ -261,45 +261,45 @@ export const mockProperties: Property[] = [
 ];
 
 export const mockZones: Zone[] = [
-  // Distrito Centro
-  { id: '1', name: 'Centro', crimeRate: 3.2, coordinates: { lat: 43.3617, lng: -5.8493 }, districtId: '1' },
-  { id: '2', name: 'El Antiguo', crimeRate: 1.5, coordinates: { lat: 43.3625, lng: -5.8430 }, districtId: '1' },
-  { id: '3', name: 'San Francisco', crimeRate: 1.5, coordinates: { lat: 43.3610, lng: -5.8530 }, districtId: '1' },
-  { id: '4', name: 'La Losa', crimeRate: 1.7, coordinates: { lat: 43.3640, lng: -5.8530 }, districtId: '1' },
-  { id: '5', name: 'Llamaquique', crimeRate: 1.8, coordinates: { lat: 43.3590, lng: -5.8550 }, districtId: '1' },
+  // Distrito 1
+  { id: '1', name: 'Casco Antiguo', crimeRate: 3.2, coordinates: { lat: 43.3617, lng: -5.8493 }, districtId: '1' },
+  { id: '2', name: 'Centro-Este', crimeRate: 1.5, coordinates: { lat: 43.3625, lng: -5.8430 }, districtId: '1' },
+  { id: '3', name: 'Centro-Norte', crimeRate: 1.5, coordinates: { lat: 43.3610, lng: -5.8530 }, districtId: '1' },
+  { id: '4', name: 'Centro-Oeste', crimeRate: 1.7, coordinates: { lat: 43.3640, lng: -5.8530 }, districtId: '1' },
+  { id: '5', name: 'Centro-Sur', crimeRate: 1.8, coordinates: { lat: 43.3590, lng: -5.8550 }, districtId: '1' },
 
-  // Distrito Norte
+  // Distrito 2
   { id: '6', name: 'Ciudad Naranco', crimeRate: 2.4, coordinates: { lat: 43.3680, lng: -5.8550 }, districtId: '2' },
-  { id: '7', name: 'Lado del Naranco', crimeRate: 1.6, coordinates: { lat: 43.3720, lng: -5.8550 }, districtId: '2' },
-  { id: '8', name: 'El Milán', crimeRate: 2.7, coordinates: { lat: 43.3685, lng: -5.8390 }, districtId: '2' },
-  { id: '9', name: 'La Tenderina', crimeRate: 3.1, coordinates: { lat: 43.3660, lng: -5.8310 }, districtId: '2' },
-  { id: '10', name: 'Teatinos', crimeRate: 3.4, coordinates: { lat: 43.3730, lng: -5.8300 }, districtId: '2' },
-  // Distrito Sur
-  { id: '11', name: 'El Cristo', crimeRate: 2.2, coordinates: { lat: 43.3556, lng: -5.8683 }, districtId: '3' },
-  { id: '12', name: 'Buenavista', crimeRate: 1.9, coordinates: { lat: 43.3550, lng: -5.8610 }, districtId: '3' },
-  { id: '13', name: 'Montecerrao', crimeRate: 1.4, coordinates: { lat: 43.3514, lng: -5.8597 }, districtId: '3' },
-  { id: '14', name: 'San Lázaro', crimeRate: 2.5, coordinates: { lat: 43.3540, lng: -5.8360 }, districtId: '3' },
-  { id: '15', name: 'El Otero', crimeRate: 2.9, coordinates: { lat: 43.3585, lng: -5.8360 }, districtId: '3' },
+  { id: '7', name: 'Vallobín', crimeRate: 1.6, coordinates: { lat: 43.3720, lng: -5.8550 }, districtId: '2' },
+  { id: '8', name: 'La Florida', crimeRate: 2.7, coordinates: { lat: 43.3685, lng: -5.8390 }, districtId: '2' },
+  { id: '9', name: 'Las Campas', crimeRate: 3.1, coordinates: { lat: 43.3660, lng: -5.8310 }, districtId: '2' },
+  { id: '10', name: 'San Claudio', crimeRate: 3.4, coordinates: { lat: 43.3730, lng: -5.8300 }, districtId: '2' },
+  // Distrito 3
+  { id: '11', name: 'La Monxina', crimeRate: 2.2, coordinates: { lat: 43.3556, lng: -5.8683 }, districtId: '3' },
+  { id: '12', name: 'Guillén-La Fuerza', crimeRate: 1.9, coordinates: { lat: 43.3550, lng: -5.8610 }, districtId: '3' },
+  { id: '13', name: 'La Corredoria', crimeRate: 1.4, coordinates: { lat: 43.3514, lng: -5.8597 }, districtId: '3' },
 
-  // Distrito Este
-  { id: '16', name: 'Colloto', crimeRate: 2.6, coordinates: { lat: 43.3690, lng: -5.8070 }, districtId: '4' },
-  { id: '17', name: 'Cortijo', crimeRate: 3.0, coordinates: { lat: 43.3865, lng: -5.8150 }, districtId: '4' },
-  { id: '18', name: 'La Corredoria', crimeRate: 3.5, coordinates: { lat: 43.3853, lng: -5.8208 }, districtId: '4' },
-  { id: '19', name: 'Faro', crimeRate: 1.2, coordinates: { lat: 43.3480, lng: -5.8080 }, districtId: '4' },
-  { id: '20', name: 'Campillín', crimeRate: 2.1, coordinates: { lat: 43.3575, lng: -5.8450 }, districtId: '4' },
+  // Distrito 4
+  { id: '14', name: 'San Lázaro', crimeRate: 2.6, coordinates: { lat: 43.3690, lng: -5.8070 }, districtId: '4' },
+  { id: '15', name: 'Otero', crimeRate: 3.0, coordinates: { lat: 43.3865, lng: -5.8150 }, districtId: '4' },
+  { id: '16', name: 'Tenderina', crimeRate: 3.5, coordinates: { lat: 43.3853, lng: -5.8208 }, districtId: '4' },
+  { id: '17', name: 'Fonzaneldi', crimeRate: 1.2, coordinates: { lat: 43.3480, lng: -5.8080 }, districtId: '4' },
+  { id: '18', name: 'Ventanielles', crimeRate: 2.1, coordinates: { lat: 43.3575, lng: -5.8450 }, districtId: '4' },
+  { id: '19', name: 'Colloto', crimeRate: 2.1, coordinates: { lat: 43.3575, lng: -5.8450 }, districtId: '4' },
 
-  // Distrito Oeste
-  { id: '21', name: 'Argañosa', crimeRate: 2.8, coordinates: { lat: 43.3650, lng: -5.8620 }, districtId: '5' },
-  { id: '22', name: 'Ería', crimeRate: 1.8, coordinates: { lat: 43.3620, lng: -5.8720 }, districtId: '5' },
-  { id: '23', name: 'La Argañosa-La Ería', crimeRate: 2.3, coordinates: { lat: 43.3635, lng: -5.8670 }, districtId: '5' },
-  { id: '24', name: 'La Florida', crimeRate: 2.0, coordinates: { lat: 43.3700, lng: -5.8780 }, districtId: '5' },
-  { id: '25', name: 'Vallobín', crimeRate: 2.9, coordinates: { lat: 43.3660, lng: -5.8650 }, districtId: '5' },
+  // Distrito 5
+  { id: '20', name: 'La Argañosa', crimeRate: 2.8, coordinates: { lat: 43.3650, lng: -5.8620 }, districtId: '5' },
+  { id: '21', name: 'La Ería', crimeRate: 1.8, coordinates: { lat: 43.3620, lng: -5.8720 }, districtId: '5' },
+  { id: '22', name: 'Buenavista', crimeRate: 2.3, coordinates: { lat: 43.3635, lng: -5.8670 }, districtId: '5' },
+  { id: '23', name: 'El Cristo', crimeRate: 2.0, coordinates: { lat: 43.3700, lng: -5.8780 }, districtId: '5' },
+  { id: '24', name: 'Montecerrado', crimeRate: 2.9, coordinates: { lat: 43.3660, lng: -5.8650 }, districtId: '5' },
+    { id: '25', name: 'Olivares', crimeRate: 2.9, coordinates: { lat: 43.3660, lng: -5.8650 }, districtId: '5' },
 
-  // Distrito Periférico
-  { id: '26', name: 'Olivares', crimeRate: 1.3, coordinates: { lat: 43.3490, lng: -5.8750 }, districtId: '6' },
-  { id: '27', name: 'Pumarín', crimeRate: 3.3, coordinates: { lat: 43.3683, lng: -5.8444 }, districtId: '6' },
-  { id: '28', name: 'San Claudio', crimeRate: 2.0, coordinates: { lat: 43.3560, lng: -5.9180 }, districtId: '6' },
-  { id: '29', name: 'Otero', crimeRate: 2.8, coordinates: { lat: 43.3595, lng: -5.8340 }, districtId: '6' }
+  // Distrito 6
+  { id: '26', name: 'Pumarín', crimeRate: 1.3, coordinates: { lat: 43.3490, lng: -5.8750 }, districtId: '6' },
+  { id: '27', name: 'Teatinos', crimeRate: 3.3, coordinates: { lat: 43.3683, lng: -5.8444 }, districtId: '6' },
+  { id: '28', name: 'Pando-Oviedo', crimeRate: 2.0, coordinates: { lat: 43.3560, lng: -5.9180 }, districtId: '6' },
+  { id: '29', name: 'El Pontón de Vaqueros', crimeRate: 2.8, coordinates: { lat: 43.3595, lng: -5.8340 }, districtId: '6' }
 ];
 
 export const mockDistricts: District[] = [
