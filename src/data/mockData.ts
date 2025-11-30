@@ -84,82 +84,46 @@ export const mockProperties: Property[] = [
   },
   {
     id: '3', // Piso C
-    url: 'https://www.idealista.com/inmueble/11223344/',
-    title: 'Piso en Chamberí, Madrid',
-    price: 380000,
+    url: 'https://www.idealista.com/inmueble/109725657/',
+    title: 'Piso en Casco-Centro Histórico, Oviedo',
+    price: 229999,
     location: {
-      lat: 40.4365,
-      lng: -3.7038,
-      address: 'Calle Fuencarral, 78, Madrid',
-      zone: 'Chamberí'
+      lat: 43.3559,
+      lng: -5.8481,
+      address: 'Calle Sacramento 24, Oviedo',
+      zone: 'Casco Antiguo'
     },
-    rentalYield: 4.5,
-    crimeRate: 2.8,
+    rentalYield: 5.04,
+    crimeRate: 1.5,
     nearbyServices: [
-      { 
-        type: 'pharmacy', 
-        name: 'Farmacia Muñoz Degraín', 
-        distance: 0.1, 
-        lat: 43.3570654, 
-        lng: -5.8488769 
-      },
-      { 
-        type: 'school', 
-        name: 'IES Alfonso II', 
-        distance: 0.3, 
-        lat: 43.3566806, 
-        lng: -5.8508095 
-      },
-      { 
-        type: 'supermarket', 
-        name: 'Alimerka', 
-        distance: 0.2, 
-        lat: 43.3559241, 
-        lng: -5.8496651 
-      },
-      { 
-        type: 'transport', 
-        name: 'Parada de bus', 
-        distance: 2.8, 
-        lat: 43.3721163, 
-        lng: -5.8246176 
-      },
-      { 
-        type: 'healthcare', 
-        name: 'Centro de Salud La Lila', 
-        distance: 0.4, 
-        lat: 43.3591691, 
-        lng: -5.8469356 
-      },
-      { 
-        type: 'bank', 
-        name: 'Banco Santander', 
-        distance: 0.1, 
-        lat: 43.3570654, 
-        lng: -5.8488769 
-      }
-    ]
+    { type: 'pharmacy', name: 'Farmacia Muñoz Degraín', distance: 0.1, lat: 43.3570654, lng: -5.8488769 },
+    { type: 'school', name: 'IES Alfonso II', distance: 0.3, lat: 43.3566806, lng: -5.8508095 },
+    { type: 'supermarket', name: 'Alimerka Muñoz Degraín', distance: 0.2, lat: 43.3559241, lng: -5.8496651 },
+    { type: 'transport', name: 'Parada Cuatro Caños (La Corredoria)', distance: 2.8, lat: 43.3721163, lng: -5.8246176 },
+    { type: 'healthcare', name: 'Centro de Salud La Lila', distance: 0.4, lat: 43.3591691, lng: -5.8469356 },
+    { type: 'bank', name: 'Banco Santander', distance: 0.1, lat: 43.3570654, lng: -5.8488769 }
+  ]
   },
   {
     id: '4', //Piso D
-    url: 'https://www.idealista.com/inmueble/22334455/',
-    title: 'Ático en Salamanca, Madrid',
-    price: 520000,
+    url: 'https://www.idealista.com/inmueble/109260462/',
+    title: 'Piso en Centro-Casco Histórico, Oviedo  ',
+    price: 219500,
     location: {
-      lat: 40.4328,
-      lng: -3.6795,
-      address: 'Calle Goya, 32, Madrid',
-      zone: 'Salamanca'
+      lat: 43.3619,
+      lng: -5.8556,
+      address: 'Calle Marques de Teverga 5, Oviedo',
+      zone: 'Casco Antiguo'
     },
-    rentalYield: 3.9,
-    crimeRate: 1.0,
+    rentalYield: 5.38,
+    crimeRate: 1.5,
     nearbyServices: [
-      { type: 'bank', name: 'Banco Santander', distance: 0.15, lat: 40.4341, lng: -3.6810 },
-      { type: 'supermarket', name: 'El Corte Inglés', distance: 0.25, lat: 40.4351, lng: -3.6778 },
-      { type: 'school', name: 'Liceo Español', distance: 0.7, lat: 40.4391, lng: -3.6742 },
-      { type: 'healthcare', name: 'Centro Médico Goya', distance: 0.3, lat: 40.4301, lng: -3.6768 },
-      { type: 'pharmacy', name: 'Farmacia Goya', distance: 0.1, lat: 40.4337, lng: -3.6805 },
-      { type: 'transport', name: 'Metro Goya', distance: 0.2, lat: 40.4308, lng: -3.6820 }
+      { type: 'pharmacy', name: 'Farmacia Plaza de América', distance: 0.1, lat: 43.3609344, lng: -5.8564839 },
+      { type: 'school', name: 'IES Aramo', distance: 0.2, lat: 43.3590022, lng: -5.8579508 },
+      { type: 'supermarket', name: 'Alimerka', distance: 0.1, lat: 43.3601467, lng: -5.8560365 },
+      { type: 'transport', name: 'Parada de bus', distance: 2.9, lat: 43.3721163, lng: -5.8246176 },
+      { type: 'healthcare', name: 'Centro Médico Asturias', distance: 0.5, lat: 43.3650911, lng: -5.8478916 },
+      { type: 'bank', name: 'Banco Sabadell', distance: 0.1, lat: 43.3607093, lng: -5.8598146 }
     ]
   },
   {
