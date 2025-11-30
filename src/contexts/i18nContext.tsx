@@ -147,7 +147,7 @@ const translations: Record<Language, Translations> = {
     school: 'Colegio/Instituto',
     healthcare: 'Centro de salud',
     pharmacy: 'Farmacia',
-    transport: 'Transporte',
+    transport: 'Parada de Bus',
     
     // Admin View
     adminPanel: 'Panel de Administración',
@@ -248,7 +248,7 @@ const translations: Record<Language, Translations> = {
     school: 'School/Institute',
     healthcare: 'Healthcare',
     pharmacy: 'Pharmacy',
-    transport: 'Transport',
+    transport: 'Bus Stop',
     
     // Admin View
     adminPanel: 'Admin Panel',
