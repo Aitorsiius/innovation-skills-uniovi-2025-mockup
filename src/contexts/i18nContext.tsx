@@ -144,7 +144,7 @@ const translations: Record<Language, Translations> = {
     // Services
     bank: 'Banco',
     supermarket: 'Supermercado',
-    school: 'Colegio',
+    school: 'Colegio/Instituto',
     healthcare: 'Centro de salud',
     pharmacy: 'Farmacia',
     transport: 'Transporte',
@@ -245,7 +245,7 @@ const translations: Record<Language, Translations> = {
     // Services
     bank: 'Bank',
     supermarket: 'Supermarket',
-    school: 'School',
+    school: 'School/Institute',
     healthcare: 'Healthcare',
     pharmacy: 'Pharmacy',
     transport: 'Transport',
