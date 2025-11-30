@@ -198,12 +198,12 @@ export const mockProperties: Property[] = [
     rentalYield: 9.68,
     crimeRate: 1.0,
     nearbyServices: [
-      { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
-      { type: 'supermarket', name: 'Sánchez Romero', distance: 0.22, lat: 40.4358, lng: -3.6788 },
-      { type: 'school', name: 'British Council School', distance: 0.6, lat: 40.4392, lng: -3.6755 },
-      { type: 'healthcare', name: 'Hospital Universitario', distance: 0.8, lat: 40.4410, lng: -3.6735 },
-      { type: 'pharmacy', name: 'Farmacia Velázquez', distance: 0.12, lat: 40.4349, lng: -3.6815 },
-      { type: 'transport', name: 'Metro Velázquez', distance: 0.25, lat: 40.4315, lng: -3.6835 }
+      { type: 'bank', name: 'Sabadell', distance: 0.4, lat: 43.3612138, lng: -5.8470829 },
+      { type: 'supermarket', name: 'Mercadona', distance: 0.4, lat: 43.3596228, lng: -5.8460644 },
+      { type: 'school', name: 'Colegio Público Dolores Medio', distance: 0.4, lat: 43.3637011, lng: -5.8457342 },
+      { type: 'healthcare', name: 'Centro de Salud Paulino Prieto', distance: 0.5, lat: 43.3591691, lng: -5.8469356 },
+      { type: 'pharmacy', name: 'Farmacia', distance: 0.2, lat: 43.3596017, lng: -5.8448496 },
+      { type: 'transport', name: 'Santa Susana', distance: 0.7, lat: 43.3581796, lng: -5.8487157 }
     ]
   },
   {
@@ -242,12 +242,12 @@ export const mockProperties: Property[] = [
     rentalYield: 7.65,
     crimeRate: 1.0,
     nearbyServices: [
-      { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
-      { type: 'supermarket', name: 'Sánchez Romero', distance: 0.22, lat: 40.4358, lng: -3.6788 },
-      { type: 'school', name: 'British Council School', distance: 0.6, lat: 40.4392, lng: -3.6755 },
-      { type: 'healthcare', name: 'Hospital Universitario', distance: 0.8, lat: 40.4410, lng: -3.6735 },
-      { type: 'pharmacy', name: 'Farmacia Velázquez', distance: 0.12, lat: 40.4349, lng: -3.6815 },
-      { type: 'transport', name: 'Metro Velázquez', distance: 0.25, lat: 40.4315, lng: -3.6835 }
+      { type: 'bank', name: 'BBVA', distance: 1.0, lat: 43.36125, lng: -5.85449 },
+      { type: 'supermarket', name: 'Covirán', distance: 0.2, lat: 43.3646897, lng: -5.8646787 },
+      { type: 'school', name: 'Colegio Nazaret', distance: 0.2, lat: 43.3626194, lng: -5.8644527 },
+      { type: 'healthcare', name: 'Centro de Salud La Ería', distance: 0.3, lat: 43.36222, lng: -5.86574 },
+      { type: 'pharmacy', name: 'Farmacia', distance: 0.5, lat: 43.3646507, lng: -5.8622972 },
+      { type: 'transport', name: 'Puente de La Argañosa', distance: 0.3, lat: 43.3634621, lng: -5.8615043 }
     ]
   },
   {
@@ -264,12 +264,12 @@ export const mockProperties: Property[] = [
     rentalYield: 9.21,
     crimeRate: 1.0,
     nearbyServices: [
-      { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
-      { type: 'supermarket', name: 'Sánchez Romero', distance: 0.22, lat: 40.4358, lng: -3.6788 },
-      { type: 'school', name: 'British Council School', distance: 0.6, lat: 40.4392, lng: -3.6755 },
-      { type: 'healthcare', name: 'Hospital Universitario', distance: 0.8, lat: 40.4410, lng: -3.6735 },
-      { type: 'pharmacy', name: 'Farmacia Velázquez', distance: 0.12, lat: 40.4349, lng: -3.6815 },
-      { type: 'transport', name: 'Metro Velázquez', distance: 0.25, lat: 40.4315, lng: -3.6835 }
+      { type: 'bank', name: 'Sabadell', distance: 0.1, lat: 43.3581, lng: -5.87027 },
+      { type: 'supermarket', name: 'Alimerka', distance: 0.2, lat: 43.35857, lng: -5.86885 },
+      { type: 'school', name: 'Colegio Público Buenavista II', distance: 0.8, lat: 43.35813, lng: -5.86247 },
+      { type: 'healthcare', name: 'Centro de Salud La Ería', distance: 0.8, lat: 43.36221, lng: -5.86604 },
+      { type: 'pharmacy', name: 'Farmacia', distance: 0.2, lat: 43.35777, lng: -5.87143 },
+      { type: 'transport', name: 'Plaza de Toros', distance: 0.3, lat: 43.35868, lng: -5.86783 }
     ]
   },
   {
@@ -286,12 +286,12 @@ export const mockProperties: Property[] = [
     rentalYield: 6.08,
     crimeRate: 1.0,
     nearbyServices: [
-      { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
-      { type: 'supermarket', name: 'Sánchez Romero', distance: 0.22, lat: 40.4358, lng: -3.6788 },
-      { type: 'school', name: 'British Council School', distance: 0.6, lat: 40.4392, lng: -3.6755 },
-      { type: 'healthcare', name: 'Hospital Universitario', distance: 0.8, lat: 40.4410, lng: -3.6735 },
-      { type: 'pharmacy', name: 'Farmacia Velázquez', distance: 0.12, lat: 40.4349, lng: -3.6815 },
-      { type: 'transport', name: 'Metro Velázquez', distance: 0.25, lat: 40.4315, lng: -3.6835 }
+      { type: 'bank', name: 'Sabadell', distance: 0.4, lat: 43.35571, lng: -5.85861 },
+      { type: 'supermarket', name: 'Mercadona', distance: 0.5, lat: 43.35458, lng: -5.85975 },
+      { type: 'school', name: 'CEIP Buenavista I', distance: 0.7, lat: 43.35661, lng: -5.86061 },
+      { type: 'healthcare', name: 'Centro de Salud El Cristo', distance: 0.8, lat: 43.35637, lng: -5.8626 },
+      { type: 'pharmacy', name: 'Farmacia Hermanos Escobedo', distance: 0.6, lat: 43.35617, lng: -5.86062 },
+      { type: 'transport', name: 'Joaquín Villa Cañal', distance: 0.6, lat: 43.35418, lng: -5.86141 }
     ]
   }
 ];
