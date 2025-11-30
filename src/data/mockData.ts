@@ -166,14 +166,36 @@ export const mockProperties: Property[] = [
 ];
 
 export const mockZones: Zone[] = [
-  { id: '1', name: 'Salamanca', crimeRate: 1.5, coordinates: { lat: 40.4318, lng: -3.6785 } },
-  { id: '2', name: 'Vallecas', crimeRate: 4.0, coordinates: { lat: 40.3897, lng: -3.6511 } },
-  { id: '3', name: 'Chamberí', crimeRate: 3.0, coordinates: { lat: 40.4365, lng: -3.7038 } },
-  { id: '4', name: 'Retiro', crimeRate: 2.0, coordinates: { lat: 40.4153, lng: -3.6838 } },
-  { id: '5', name: 'Carabanchel', crimeRate: 3.5, coordinates: { lat: 40.3850, lng: -3.7425 } },
-  { id: '6', name: 'Moncloa', crimeRate: 2.5, coordinates: { lat: 40.4349, lng: -3.7187 } }
+  { id: '1', name: 'Argañosa', crimeRate: 2.8, coordinates: { lat: 43.3650, lng: -5.8620 } },
+  { id: '2', name: 'Buenavista', crimeRate: 1.9, coordinates: { lat: 43.3550, lng: -5.8610 } },
+  { id: '3', name: 'Campillín', crimeRate: 2.1, coordinates: { lat: 43.3575, lng: -5.8450 } },
+  { id: '4', name: 'Centro', crimeRate: 3.2, coordinates: { lat: 43.3617, lng: -5.8493 } },
+  { id: '5', name: 'Ciudad Naranco', crimeRate: 2.4, coordinates: { lat: 43.3680, lng: -5.8550 } },
+  { id: '6', name: 'Colloto', crimeRate: 2.6, coordinates: { lat: 43.3690, lng: -5.8070 } },
+  { id: '7', name: 'Cortijo', crimeRate: 3.0, coordinates: { lat: 43.3865, lng: -5.8150 } },
+  { id: '8', name: 'El Antiguo', crimeRate: 1.5, coordinates: { lat: 43.3625, lng: -5.8430 } },
+  { id: '9', name: 'El Cristo', crimeRate: 2.2, coordinates: { lat: 43.3556, lng: -5.8683 } },
+  { id: '10', name: 'El Milán', crimeRate: 2.7, coordinates: { lat: 43.3685, lng: -5.8390 } },
+  { id: '11', name: 'El Otero', crimeRate: 2.9, coordinates: { lat: 43.3585, lng: -5.8360 } },
+  { id: '12', name: 'Ería', crimeRate: 1.8, coordinates: { lat: 43.3620, lng: -5.8720 } },
+  { id: '13', name: 'Faro', crimeRate: 1.2, coordinates: { lat: 43.3480, lng: -5.8080 } },
+  { id: '14', name: 'La Argañosa-La Ería', crimeRate: 2.3, coordinates: { lat: 43.3635, lng: -5.8670 } },
+  { id: '15', name: 'La Corredoria', crimeRate: 3.5, coordinates: { lat: 43.3853, lng: -5.8208 } },
+  { id: '16', name: 'La Florida', crimeRate: 2.0, coordinates: { lat: 43.3700, lng: -5.8780 } },
+  { id: '17', name: 'La Losa', crimeRate: 1.7, coordinates: { lat: 43.3640, lng: -5.8530 } },
+  { id: '18', name: 'La Tenderina', crimeRate: 3.1, coordinates: { lat: 43.3660, lng: -5.8310 } },
+  { id: '19', name: 'Lado del Naranco', crimeRate: 1.6, coordinates: { lat: 43.3720, lng: -5.8550 } },
+  { id: '20', name: 'Llamaquique', crimeRate: 1.8, coordinates: { lat: 43.3590, lng: -5.8550 } },
+  { id: '21', name: 'Montecerrao', crimeRate: 1.4, coordinates: { lat: 43.3514, lng: -5.8597 } },
+  { id: '22', name: 'Olivares', crimeRate: 1.3, coordinates: { lat: 43.3490, lng: -5.8750 } },
+  { id: '23', name: 'Otero', crimeRate: 2.8, coordinates: { lat: 43.3595, lng: -5.8340 } },
+  { id: '24', name: 'Pumarín', crimeRate: 3.3, coordinates: { lat: 43.3683, lng: -5.8444 } },
+  { id: '25', name: 'San Claudio', crimeRate: 2.0, coordinates: { lat: 43.3560, lng: -5.9180 } },
+  { id: '26', name: 'San Francisco', crimeRate: 1.5, coordinates: { lat: 43.3610, lng: -5.8530 } },
+  { id: '27', name: 'San Lázaro', crimeRate: 2.5, coordinates: { lat: 43.3540, lng: -5.8360 } },
+  { id: '28', name: 'Teatinos', crimeRate: 3.4, coordinates: { lat: 43.3730, lng: -5.8300 } },
+  { id: '29', name: 'Vallobín', crimeRate: 2.9, coordinates: { lat: 43.3660, lng: -5.8650 } }
 ];
-
 export const mockAdmin = {
   username: 'admin',
   password: 'admin123'
