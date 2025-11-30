@@ -84,61 +84,25 @@ export const mockProperties: Property[] = [
   },
   {
     id: '3', // Piso C
-    url: 'https://www.idealista.com/inmueble/11223344/',
-    title: 'Piso en Chamberí, Madrid',
-    price: 380000,
+    url: 'https://www.idealista.com/inmueble/109725657/',
+    title: 'Piso en Casco-Centro Histórico, Oviedo',
+    price: 229999,
     location: {
-      lat: 40.4365,
-      lng: -3.7038,
-      address: 'Calle Fuencarral, 78, Madrid',
-      zone: 'Chamberí'
+      lat: 43.3559,
+      lng: -5.8481,
+      address: 'Calle Sacramento 24, Oviedo',
+      zone: 'Casco Antiguo'
     },
-    rentalYield: 4.5,
-    crimeRate: 2.8,
+    rentalYield: 5.04,
+    crimeRate: 1.5,
     nearbyServices: [
-      { 
-        type: 'pharmacy', 
-        name: 'Farmacia Muñoz Degraín', 
-        distance: 0.1, 
-        lat: 43.3570654, 
-        lng: -5.8488769 
-      },
-      { 
-        type: 'school', 
-        name: 'IES Alfonso II', 
-        distance: 0.3, 
-        lat: 43.3566806, 
-        lng: -5.8508095 
-      },
-      { 
-        type: 'supermarket', 
-        name: 'Alimerka', 
-        distance: 0.2, 
-        lat: 43.3559241, 
-        lng: -5.8496651 
-      },
-      { 
-        type: 'transport', 
-        name: 'Parada de bus', 
-        distance: 2.8, 
-        lat: 43.3721163, 
-        lng: -5.8246176 
-      },
-      { 
-        type: 'healthcare', 
-        name: 'Centro de Salud La Lila', 
-        distance: 0.4, 
-        lat: 43.3591691, 
-        lng: -5.8469356 
-      },
-      { 
-        type: 'bank', 
-        name: 'Banco Santander', 
-        distance: 0.1, 
-        lat: 43.3570654, 
-        lng: -5.8488769 
-      }
-    ]
+    { type: 'pharmacy', name: 'Farmacia Muñoz Degraín', distance: 0.1, lat: 43.3570654, lng: -5.8488769 },
+    { type: 'school', name: 'IES Alfonso II', distance: 0.3, lat: 43.3566806, lng: -5.8508095 },
+    { type: 'supermarket', name: 'Alimerka Muñoz Degraín', distance: 0.2, lat: 43.3559241, lng: -5.8496651 },
+    { type: 'transport', name: 'Parada Cuatro Caños (La Corredoria)', distance: 2.8, lat: 43.3721163, lng: -5.8246176 },
+    { type: 'healthcare', name: 'Centro de Salud La Lila', distance: 0.4, lat: 43.3591691, lng: -5.8469356 },
+    { type: 'bank', name: 'Banco Santander', distance: 0.1, lat: 43.3570654, lng: -5.8488769 }
+  ]
   },
   {
     id: '4', //Piso D
