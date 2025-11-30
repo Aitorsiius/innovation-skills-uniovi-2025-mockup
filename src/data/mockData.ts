@@ -96,12 +96,48 @@ export const mockProperties: Property[] = [
     rentalYield: 4.5,
     crimeRate: 2.8,
     nearbyServices: [
-      { type: 'bank', name: 'CaixaBank', distance: 0.15, lat: 40.4378, lng: -3.7025 },
-      { type: 'supermarket', name: 'Día', distance: 0.1, lat: 40.4373, lng: -3.7048 },
-      { type: 'school', name: 'Colegio Sagrado Corazón', distance: 0.4, lat: 40.4401, lng: -3.7015 },
-      { type: 'healthcare', name: 'Centro de Salud Ríos Rosas', distance: 0.6, lat: 40.4419, lng: -3.6998 },
-      { type: 'pharmacy', name: 'Farmacia Chamberí', distance: 0.2, lat: 40.4383, lng: -3.7055 },
-      { type: 'transport', name: 'Metro Bilbao', distance: 0.2, lat: 40.4338, lng: -3.7010 }
+      { 
+        type: 'pharmacy', 
+        name: 'Farmacia Muñoz Degraín', 
+        distance: 0.1, 
+        lat: 43.3570654, 
+        lng: -5.8488769 
+      },
+      { 
+        type: 'school', 
+        name: 'IES Alfonso II', 
+        distance: 0.3, 
+        lat: 43.3566806, 
+        lng: -5.8508095 
+      },
+      { 
+        type: 'supermarket', 
+        name: 'Alimerka', 
+        distance: 0.2, 
+        lat: 43.3559241, 
+        lng: -5.8496651 
+      },
+      { 
+        type: 'transport', 
+        name: 'Parada de bus', 
+        distance: 2.8, 
+        lat: 43.3721163, 
+        lng: -5.8246176 
+      },
+      { 
+        type: 'healthcare', 
+        name: 'Centro de Salud La Lila', 
+        distance: 0.4, 
+        lat: 43.3591691, 
+        lng: -5.8469356 
+      },
+      { 
+        type: 'bank', 
+        name: 'Banco Santander', 
+        distance: 0.1, 
+        lat: 43.3570654, 
+        lng: -5.8488769 
+      }
     ]
   },
   {
