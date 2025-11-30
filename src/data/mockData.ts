@@ -40,24 +40,24 @@ export interface District {
 export const mockProperties: Property[] = [
   {
     id: '1',
-    url: 'https://www.idealista.com/inmueble/12345678/',
-    title: 'Piso en Salamanca, Madrid',
+    url: 'https://www.idealista.com/inmueble/97904988/',
+    title: 'Piso en Centro-Casco Historico, Oviedo',
     price: 450000,
     location: {
-      lat: 40.4318,
-      lng: -3.6785,
-      address: 'Calle Serrano, 45, Madrid',
+      lat: 43.3649276,
+      lng: -5.8516202,
+      address: 'Calle Melquiades Alvarez',
       zone: 'Centro'
     },
-    rentalYield: 4.0,
+    rentalYield: 6.8,
     crimeRate: 2.0,
     nearbyServices: [
-      { type: 'bank', name: 'Banco Santander', distance: 0.2, lat: 40.4336, lng: -3.6790 },
-      { type: 'supermarket', name: 'Mercadona', distance: 0.3, lat: 40.4345, lng: -3.6770 },
-      { type: 'school', name: 'Colegio San Patricio', distance: 0.5, lat: 40.4363, lng: -3.6755 },
-      { type: 'healthcare', name: 'Centro de Salud Goya', distance: 0.4, lat: 40.4280, lng: -3.6755 },
-      { type: 'pharmacy', name: 'Farmacia Central', distance: 0.1, lat: 40.4327, lng: -3.6795 },
-      { type: 'transport', name: 'Metro Velázquez', distance: 0.3, lat: 40.4253, lng: -3.6840 }
+      { type: 'bank', name: 'Bankinter', distance: 0.2, lat: 43.3645, lng: -5.8519 },
+      { type: 'supermarket', name: 'Alimerka', distance: 0.3, lat: 43.3661, lng: -5.8508},
+      { type: 'school', name: 'Colegio La Compañía de Jesús', distance: 0.5, lat: 43.3654, lng: -5.8504 },
+      { type: 'healthcare', name: 'Centro Médico Campoamor', distance: 0.4, lat: 43.3656, lng: -5.8520 },
+      { type: 'pharmacy', name: 'Farmacia Cavia', distance: 0.1, lat: 43.3649, lng: -5.8504 },
+      { type: 'transport', name: 'Parada de Bus', distance: 0.3, lat: 43.3648, lng: -5.8523 }
     ]
   },
   {
