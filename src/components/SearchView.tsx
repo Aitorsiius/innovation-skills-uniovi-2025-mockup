@@ -3,8 +3,8 @@ import { Search } from 'lucide-react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
-import { Home } from 'lucide-react';
 import { useI18n } from '../contexts/i18nContext';
+import { useTheme } from '../contexts/themeContext';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { ThemeToggle } from './ThemeToggle';
 
@@ -16,6 +16,7 @@ interface SearchViewProps {
 export function SearchView({ onSearch, recentlyViewed }: SearchViewProps) {
   const [url, setUrl] = useState('');
   const { t } = useI18n();
+  const { theme } = useTheme();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -34,11 +35,13 @@ export function SearchView({ onSearch, recentlyViewed }: SearchViewProps) {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <div className="flex justify-center mb-4">
-            <div className="p-4 bg-primary rounded-full">
-              <Home className="h-8 w-8 sm:h-12 sm:w-12 text-primary-foreground" />
-            </div>
+            <img 
+              src={theme === 'dark' ? '/logo_dark.png' : '/logo.png'} 
+              alt="Logo" 
+              className="h-16 w-16 sm:h-24 sm:w-24 object-contain" 
+            />
           </div>
-          <h1 className="text-2xl sm:text-4xl mb-2">{t.searchTitle}</h1>
+          <h1 className="text-xl sm:text-2xl mb-2">{t.searchTitle}</h1>
           <p className="text-sm sm:text-base text-muted-foreground">
             {t.searchSubtitle}
           </p>
