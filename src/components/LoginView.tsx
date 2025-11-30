@@ -58,7 +58,6 @@ export function LoginView({ onLogin, onBack }: LoginViewProps) {
         <Card>
           <CardHeader>
             <CardTitle className="text-base sm:text-lg">{t.login}</CardTitle>
-            <CardDescription className="text-xs sm:text-sm">Usuario: {mockAdmin.username} / Contraseña: {mockAdmin.password}</CardDescription>
           </CardHeader>
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-4">

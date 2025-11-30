@@ -89,7 +89,6 @@ export function AdminView({ onLogout, zones, onUpdateZone }: AdminViewProps) {
       <header className="border-b p-3 sm:p-4 bg-card dark:bg-card">
         <div className="container mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2 sm:gap-4">
-            <img src={theme === 'dark' ? '/logo_dark.png' : '/logo.png'} alt="Logo" className="h-6 w-6 sm:h-8 sm:w-8 object-contain" />
             <div>
               <h1 className="text-base sm:text-xl">{t.adminPanel}</h1>
               <p className="text-xs sm:text-sm text-muted-foreground hidden sm:block">{t.crimeRateManagement}</p>
