@@ -51,14 +51,14 @@ export const mockProperties: Property[] = [
     },
     rentalYield: 6.8,
     crimeRate: 1.5,
-    nearbyServices: [
-      { type: 'bank', name: 'Bankinter', distance: 0.2, lat: 43.3645, lng: -5.8519 },
-      { type: 'supermarket', name: 'Alimerka', distance: 0.3, lat: 43.3661, lng: -5.8508},
-      { type: 'school', name: 'Colegio La Compañía de Jesús', distance: 0.5, lat: 43.3654, lng: -5.8504 },
-      { type: 'healthcare', name: 'Centro Médico Campoamor', distance: 0.4, lat: 43.3656, lng: -5.8520 },
-      { type: 'pharmacy', name: 'Farmacia Cavia', distance: 0.1, lat: 43.3649, lng: -5.8504 },
-      { type: 'transport', name: 'Parada de Bus', distance: 0.3, lat: 43.3648, lng: -5.8523 }
-    ]
+  nearbyServices: [
+    { type: 'bank', name: 'Bankinter', distance: 0.2, lat: 43.36458524679854, lng: -5.851936985501291 },
+    { type: 'supermarket', name: 'Alimerka', distance: 0.3, lat: 43.36611197343328, lng: -5.850870813175614 },
+    { type: 'school', name: 'La Compañía de Jesús', distance: 0.2, lat: 43.36542173036478, lng: -5.850495301364914 },
+    { type: 'healthcare', name: 'Centro Médico Campoamor', distance: 0.2, lat: 43.365665547832485, lng: -5.852065729030001 },
+    { type: 'pharmacy', name: 'Farmacia Cavia', distance: 0.1, lat: 43.36499274632147, lng: -5.850463114877561 },
+    { type: 'transport', name: 'Uría La Llave', distance: 0.1, lat: 43.3648328771481, lng: -5.852364236535523 }
+  ]
   },
   {
     id: '2', // Piso B
@@ -195,7 +195,7 @@ export const mockProperties: Property[] = [
       address: 'Calle San Antonio 9, Oviedo',
       zone: 'Casco Antiguo'
     },
-    rentalYield: 9.682,
+    rentalYield: 9.68,
     crimeRate: 1.0,
     nearbyServices: [
       { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
@@ -239,7 +239,7 @@ export const mockProperties: Property[] = [
       address: 'Calle Miguel Ángel Blanco 59, Oviedo',
       zone: 'La Argañosa'
     },
-    rentalYield: 7.651,
+    rentalYield: 7.65,
     crimeRate: 1.0,
     nearbyServices: [
       { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
@@ -261,7 +261,7 @@ export const mockProperties: Property[] = [
       address: 'Calle Fuertes Acevedo 43, Oviedo',
       zone: 'Buenavista'
     },
-    rentalYield: 9.211,
+    rentalYield: 9.21,
     crimeRate: 1.0,
     nearbyServices: [
       { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
@@ -283,7 +283,7 @@ export const mockProperties: Property[] = [
       address: 'Avenida de las Segadas, Oviedo',
       zone: 'Montecerrao'
     },
-    rentalYield: 6.076,
+    rentalYield: 6.08,
     crimeRate: 1.0,
     nearbyServices: [
       { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
