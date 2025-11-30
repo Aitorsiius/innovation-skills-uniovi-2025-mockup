@@ -106,24 +106,24 @@ export const mockProperties: Property[] = [
   },
   {
     id: '4', //Piso D
-    url: 'https://www.idealista.com/inmueble/22334455/',
-    title: 'Ático en Salamanca, Madrid',
-    price: 520000,
+    url: 'https://www.idealista.com/inmueble/109260462/',
+    title: 'Piso en Centro-Casco Histórico, Oviedo  ',
+    price: 219500,
     location: {
-      lat: 40.4328,
-      lng: -3.6795,
-      address: 'Calle Goya, 32, Madrid',
-      zone: 'Salamanca'
+      lat: 43.3619,
+      lng: -5.8556,
+      address: 'Calle Marques de Teverga 5, Oviedo',
+      zone: 'Casco Antiguo'
     },
-    rentalYield: 3.9,
-    crimeRate: 1.0,
+    rentalYield: 5.38,
+    crimeRate: 1.5,
     nearbyServices: [
-      { type: 'bank', name: 'Banco Santander', distance: 0.15, lat: 40.4341, lng: -3.6810 },
-      { type: 'supermarket', name: 'El Corte Inglés', distance: 0.25, lat: 40.4351, lng: -3.6778 },
-      { type: 'school', name: 'Liceo Español', distance: 0.7, lat: 40.4391, lng: -3.6742 },
-      { type: 'healthcare', name: 'Centro Médico Goya', distance: 0.3, lat: 40.4301, lng: -3.6768 },
-      { type: 'pharmacy', name: 'Farmacia Goya', distance: 0.1, lat: 40.4337, lng: -3.6805 },
-      { type: 'transport', name: 'Metro Goya', distance: 0.2, lat: 40.4308, lng: -3.6820 }
+      { type: 'pharmacy', name: 'Farmacia Plaza de América', distance: 0.1, lat: 43.3609344, lng: -5.8564839 },
+      { type: 'school', name: 'IES Aramo', distance: 0.2, lat: 43.3590022, lng: -5.8579508 },
+      { type: 'supermarket', name: 'Alimerka', distance: 0.1, lat: 43.3601467, lng: -5.8560365 },
+      { type: 'transport', name: 'Parada de bus', distance: 2.9, lat: 43.3721163, lng: -5.8246176 },
+      { type: 'healthcare', name: 'Centro Médico Asturias', distance: 0.5, lat: 43.3650911, lng: -5.8478916 },
+      { type: 'bank', name: 'Banco Sabadell', distance: 0.1, lat: 43.3607093, lng: -5.8598146 }
     ]
   },
   {
