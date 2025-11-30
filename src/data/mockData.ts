@@ -62,16 +62,16 @@ export const mockProperties: Property[] = [
   },
   {
     id: '2', // Piso B
-    url: 'https://www.idealista.com/inmueble/87654321/',
-    title: 'Apartamento en Vallecas, Madrid',
-    price: 180000,
+    url: 'https://www.idealista.com/inmueble/89066815/',
+    title: 'Apartamento en Casco Antiguo, Oviedo',
+    price: 220000,
     location: {
       lat: 43.3598521,
       lng: -5.8474118,
-      address: 'Avenida de la Albufera, 120, Madrid',
+      address: 'Calle Rosal, Oviedo',
       zone: 'Casco Antiguo'
     },
-    rentalYield: 5.8,
+    rentalYield: 5.09,
     crimeRate: 4.0,
     nearbyServices: [
       { type: 'bank', name: 'BBVA', distance: 0.4, lat: 40.3933, lng: -3.6525 },
@@ -150,16 +150,16 @@ export const mockProperties: Property[] = [
   },
   {
     id: '6', // Piso F
-    url: 'https://www.idealista.com/inmueble/44556677/',
-    title: 'Dúplex en Salamanca, Madrid',
-    price: 680000,
+    url: 'https://www.idealista.com/inmueble/108981641/',
+    title: 'Piso en Casco Antiguo, Oviedo', 
+    price: 195000,
     location: {
-      lat: 40.4338,
-      lng: -3.6805,
-      address: 'Calle Velázquez, 54, Madrid',
-      zone: 'Salamanca'
+      lat: 43.3613905,
+      lng: -5.8440664,
+      address: 'Calle San Antonio 9, Oviedo',
+      zone: 'Casco Antiguo'
     },
-    rentalYield: 3.7,
+    rentalYield: 9.682,
     crimeRate: 1.0,
     nearbyServices: [
       { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
@@ -194,16 +194,16 @@ export const mockProperties: Property[] = [
   },
   {
     id: '8', // Piso N
-    url: 'https://www.idealista.com/inmueble/44556677/',
-    title: 'Dúplex en Salamanca, Madrid',
-    price: 680000,
+    url: 'https://www.idealista.com/inmueble/109405076/',
+    title: 'Piso en La Argañosa, Oviedo',
+    price: 175000,
     location: {
-      lat: 40.4338,
-      lng: -3.6805,
-      address: 'Calle Velázquez, 54, Madrid',
-      zone: 'Salamanca'
+      lat: 43.3634546,
+      lng: -5.8639711,
+      address: 'Calle Miguel Ángel Blanco 59, Oviedo',
+      zone: 'La Argañosa'
     },
-    rentalYield: 3.7,
+    rentalYield: 7.651,
     crimeRate: 1.0,
     nearbyServices: [
       { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
@@ -216,16 +216,16 @@ export const mockProperties: Property[] = [
   },
   {
     id: '9', // Piso O
-    url: 'https://www.idealista.com/inmueble/44556677/',
-    title: 'Dúplex en Salamanca, Madrid',
-    price: 680000,
+    url: 'https://www.idealista.com/inmueble/109807493/',
+    title: 'Piso en Buenavista, Oviedo',
+    price: 135000,
     location: {
-      lat: 40.4338,
-      lng: -3.6805,
-      address: 'Calle Velázquez, 54, Madrid',
-      zone: 'Salamanca'
+      lat: 43.3582818,
+      lng: -5.8693566,
+      address: 'Calle Fuertes Acevedo 43, Oviedo',
+      zone: 'Buenavista'
     },
-    rentalYield: 3.7,
+    rentalYield: 9.211,
     crimeRate: 1.0,
     nearbyServices: [
       { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
@@ -238,16 +238,16 @@ export const mockProperties: Property[] = [
   },
   {
     id: '10', // Piso P
-    url: 'https://www.idealista.com/inmueble/44556677/',
-    title: 'Dúplex en Salamanca, Madrid',
-    price: 680000,
+    url: 'https://www.idealista.com/inmueble/109730797/',
+    title: 'Piso en Montecerrao, Oviedo',
+    price: 220000,
     location: {
-      lat: 40.4338,
-      lng: -3.6805,
-      address: 'Calle Velázquez, 54, Madrid',
-      zone: 'Salamanca'
+      lat: 43.3538199,
+      lng: -5.8582278,
+      address: 'Avenida de las Segadas, Oviedo',
+      zone: 'Montecerrao'
     },
-    rentalYield: 3.7,
+    rentalYield: 6.076,
     crimeRate: 1.0,
     nearbyServices: [
       { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
