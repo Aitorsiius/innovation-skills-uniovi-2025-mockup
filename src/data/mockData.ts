@@ -172,24 +172,24 @@ export const mockProperties: Property[] = [
   },
   {
     id: '7', // Piso I
-    url: 'https://www.idealista.com/inmueble/44556677/',
-    title: 'Dúplex en Salamanca, Madrid',
-    price: 680000,
+    url: 'https://www.idealista.com/inmueble/109685182/',
+    title: 'Piso en Llamaquique, Oviedo',
+    price: 265000,
     location: {
-      lat: 40.4338,
-      lng: -3.6805,
-      address: 'Calle Velázquez, 54, Madrid',
-      zone: 'Salamanca'
+      lat: 43.3635,
+      lng: -5.841,
+      address: 'Calle Azcarraga, Llamaquique, Oviedo',
+      zone: 'Casco Antiguo'
     },
-    rentalYield: 3.7,
-    crimeRate: 1.0,
+    rentalYield: 3.3,
+    crimeRate: 1.5,
     nearbyServices: [
-      { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
-      { type: 'supermarket', name: 'Sánchez Romero', distance: 0.22, lat: 40.4358, lng: -3.6788 },
-      { type: 'school', name: 'British Council School', distance: 0.6, lat: 40.4392, lng: -3.6755 },
-      { type: 'healthcare', name: 'Hospital Universitario', distance: 0.8, lat: 40.4410, lng: -3.6735 },
-      { type: 'pharmacy', name: 'Farmacia Velázquez', distance: 0.12, lat: 40.4349, lng: -3.6815 },
-      { type: 'transport', name: 'Metro Velázquez', distance: 0.25, lat: 40.4315, lng: -3.6835 }
+      { type: 'pharmacy', name: 'Farmacia Ldo. Pérez', distance: 0.1, lat: 43.3637186, lng: -5.8440887 },
+      { type: 'school', name: 'Instituto Santa María del Naranco', distance: 0.2, lat: 43.3637011, lng: -5.8457342 },
+      { type: 'supermarket', name: 'Alimerka', distance: 0.1, lat: 43.3639642, lng: -5.8433422 },
+      { type: 'transport', name: 'Parada de bus', distance: 2.9, lat: 43.3721163, lng: -5.8246176 },
+      { type: 'healthcare', name: 'Centro Médico Asturias', distance: 0.4, lat: 43.3650911, lng: -5.8478916 },
+      { type: 'bank', name: 'CaixaBank', distance: 0.1, lat: 43.3637186, lng: -5.8440887 }
     ]
   },
   {
