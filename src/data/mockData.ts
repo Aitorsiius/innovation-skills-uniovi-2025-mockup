@@ -42,7 +42,7 @@ export const mockProperties: Property[] = [
     id: '1',
     url: 'https://www.idealista.com/inmueble/97904988/',
     title: 'Piso en Centro-Casco Historico, Oviedo',
-    price: 450000,
+    price: 199999,
     location: {
       lat: 43.3649276,
       lng: -5.8516202,
