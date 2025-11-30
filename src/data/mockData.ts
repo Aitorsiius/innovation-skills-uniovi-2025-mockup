@@ -47,7 +47,7 @@ export const mockProperties: Property[] = [
       lat: 40.4318,
       lng: -3.6785,
       address: 'Calle Serrano, 45, Madrid',
-      zone: 'Salamanca'
+      zone: 'Centro'
     },
     rentalYield: 4.0,
     crimeRate: 2.0,
@@ -150,6 +150,94 @@ export const mockProperties: Property[] = [
   },
   {
     id: '6',
+    url: 'https://www.idealista.com/inmueble/44556677/',
+    title: 'Dúplex en Salamanca, Madrid',
+    price: 680000,
+    location: {
+      lat: 40.4338,
+      lng: -3.6805,
+      address: 'Calle Velázquez, 54, Madrid',
+      zone: 'Salamanca'
+    },
+    rentalYield: 3.7,
+    crimeRate: 1.0,
+    nearbyServices: [
+      { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
+      { type: 'supermarket', name: 'Sánchez Romero', distance: 0.22, lat: 40.4358, lng: -3.6788 },
+      { type: 'school', name: 'British Council School', distance: 0.6, lat: 40.4392, lng: -3.6755 },
+      { type: 'healthcare', name: 'Hospital Universitario', distance: 0.8, lat: 40.4410, lng: -3.6735 },
+      { type: 'pharmacy', name: 'Farmacia Velázquez', distance: 0.12, lat: 40.4349, lng: -3.6815 },
+      { type: 'transport', name: 'Metro Velázquez', distance: 0.25, lat: 40.4315, lng: -3.6835 }
+    ]
+  },
+  {
+    id: '7',
+    url: 'https://www.idealista.com/inmueble/44556677/',
+    title: 'Dúplex en Salamanca, Madrid',
+    price: 680000,
+    location: {
+      lat: 40.4338,
+      lng: -3.6805,
+      address: 'Calle Velázquez, 54, Madrid',
+      zone: 'Salamanca'
+    },
+    rentalYield: 3.7,
+    crimeRate: 1.0,
+    nearbyServices: [
+      { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
+      { type: 'supermarket', name: 'Sánchez Romero', distance: 0.22, lat: 40.4358, lng: -3.6788 },
+      { type: 'school', name: 'British Council School', distance: 0.6, lat: 40.4392, lng: -3.6755 },
+      { type: 'healthcare', name: 'Hospital Universitario', distance: 0.8, lat: 40.4410, lng: -3.6735 },
+      { type: 'pharmacy', name: 'Farmacia Velázquez', distance: 0.12, lat: 40.4349, lng: -3.6815 },
+      { type: 'transport', name: 'Metro Velázquez', distance: 0.25, lat: 40.4315, lng: -3.6835 }
+    ]
+  },
+  {
+    id: '8',
+    url: 'https://www.idealista.com/inmueble/44556677/',
+    title: 'Dúplex en Salamanca, Madrid',
+    price: 680000,
+    location: {
+      lat: 40.4338,
+      lng: -3.6805,
+      address: 'Calle Velázquez, 54, Madrid',
+      zone: 'Salamanca'
+    },
+    rentalYield: 3.7,
+    crimeRate: 1.0,
+    nearbyServices: [
+      { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
+      { type: 'supermarket', name: 'Sánchez Romero', distance: 0.22, lat: 40.4358, lng: -3.6788 },
+      { type: 'school', name: 'British Council School', distance: 0.6, lat: 40.4392, lng: -3.6755 },
+      { type: 'healthcare', name: 'Hospital Universitario', distance: 0.8, lat: 40.4410, lng: -3.6735 },
+      { type: 'pharmacy', name: 'Farmacia Velázquez', distance: 0.12, lat: 40.4349, lng: -3.6815 },
+      { type: 'transport', name: 'Metro Velázquez', distance: 0.25, lat: 40.4315, lng: -3.6835 }
+    ]
+  },
+  {
+    id: '9',
+    url: 'https://www.idealista.com/inmueble/44556677/',
+    title: 'Dúplex en Salamanca, Madrid',
+    price: 680000,
+    location: {
+      lat: 40.4338,
+      lng: -3.6805,
+      address: 'Calle Velázquez, 54, Madrid',
+      zone: 'Salamanca'
+    },
+    rentalYield: 3.7,
+    crimeRate: 1.0,
+    nearbyServices: [
+      { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
+      { type: 'supermarket', name: 'Sánchez Romero', distance: 0.22, lat: 40.4358, lng: -3.6788 },
+      { type: 'school', name: 'British Council School', distance: 0.6, lat: 40.4392, lng: -3.6755 },
+      { type: 'healthcare', name: 'Hospital Universitario', distance: 0.8, lat: 40.4410, lng: -3.6735 },
+      { type: 'pharmacy', name: 'Farmacia Velázquez', distance: 0.12, lat: 40.4349, lng: -3.6815 },
+      { type: 'transport', name: 'Metro Velázquez', distance: 0.25, lat: 40.4315, lng: -3.6835 }
+    ]
+  },
+  {
+    id: '10',
     url: 'https://www.idealista.com/inmueble/44556677/',
     title: 'Dúplex en Salamanca, Madrid',
     price: 680000,
