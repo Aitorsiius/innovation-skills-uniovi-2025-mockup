@@ -51,14 +51,14 @@ export const mockProperties: Property[] = [
     },
     rentalYield: 6.8,
     crimeRate: 1.5,
-  nearbyServices: [
-    { type: 'bank', name: 'Bankinter', distance: 0.2, lat: 43.36458524679854, lng: -5.851936985501291 },
-    { type: 'supermarket', name: 'Alimerka', distance: 0.3, lat: 43.36611197343328, lng: -5.850870813175614 },
-    { type: 'school', name: 'La Compañía de Jesús', distance: 0.2, lat: 43.36542173036478, lng: -5.850495301364914 },
-    { type: 'healthcare', name: 'Centro Médico Campoamor', distance: 0.2, lat: 43.365665547832485, lng: -5.852065729030001 },
-    { type: 'pharmacy', name: 'Farmacia Cavia', distance: 0.1, lat: 43.36499274632147, lng: -5.850463114877561 },
-    { type: 'transport', name: 'Uría La Llave', distance: 0.1, lat: 43.3648328771481, lng: -5.852364236535523 }
-  ]
+    nearbyServices: [
+      { type: 'bank', name: 'Bankinter', distance: 0.2, lat: 43.3645, lng: -5.8519 },
+      { type: 'supermarket', name: 'Alimerka', distance: 0.3, lat: 43.3661, lng: -5.8508},
+      { type: 'school', name: 'Colegio La Compañía de Jesús', distance: 0.5, lat: 43.3654, lng: -5.8504 },
+      { type: 'healthcare', name: 'Centro Médico Campoamor', distance: 0.4, lat: 43.3656, lng: -5.8520 },
+      { type: 'pharmacy', name: 'Farmacia Cavia', distance: 0.1, lat: 43.3649, lng: -5.8504 },
+      { type: 'transport', name: 'Parada de Bus', distance: 0.3, lat: 43.3648, lng: -5.8523 }
+    ]
   },
   {
     id: '2', // Piso B
@@ -84,46 +84,82 @@ export const mockProperties: Property[] = [
   },
   {
     id: '3', // Piso C
-    url: 'https://www.idealista.com/inmueble/109725657/',
-    title: 'Piso en Casco-Centro Histórico, Oviedo',
-    price: 229999,
+    url: 'https://www.idealista.com/inmueble/11223344/',
+    title: 'Piso en Chamberí, Madrid',
+    price: 380000,
     location: {
-      lat: 43.3559,
-      lng: -5.8481,
-      address: 'Calle Sacramento 24, Oviedo',
-      zone: 'Casco Antiguo'
+      lat: 40.4365,
+      lng: -3.7038,
+      address: 'Calle Fuencarral, 78, Madrid',
+      zone: 'Chamberí'
     },
-    rentalYield: 5.04,
-    crimeRate: 1.5,
+    rentalYield: 4.5,
+    crimeRate: 2.8,
     nearbyServices: [
-    { type: 'pharmacy', name: 'Farmacia Muñoz Degraín', distance: 0.1, lat: 43.3570654, lng: -5.8488769 },
-    { type: 'school', name: 'IES Alfonso II', distance: 0.3, lat: 43.3566806, lng: -5.8508095 },
-    { type: 'supermarket', name: 'Alimerka Muñoz Degraín', distance: 0.2, lat: 43.3559241, lng: -5.8496651 },
-    { type: 'transport', name: 'Parada Cuatro Caños (La Corredoria)', distance: 2.8, lat: 43.3721163, lng: -5.8246176 },
-    { type: 'healthcare', name: 'Centro de Salud La Lila', distance: 0.4, lat: 43.3591691, lng: -5.8469356 },
-    { type: 'bank', name: 'Banco Santander', distance: 0.1, lat: 43.3570654, lng: -5.8488769 }
-  ]
+      { 
+        type: 'pharmacy', 
+        name: 'Farmacia Muñoz Degraín', 
+        distance: 0.1, 
+        lat: 43.3570654, 
+        lng: -5.8488769 
+      },
+      { 
+        type: 'school', 
+        name: 'IES Alfonso II', 
+        distance: 0.3, 
+        lat: 43.3566806, 
+        lng: -5.8508095 
+      },
+      { 
+        type: 'supermarket', 
+        name: 'Alimerka', 
+        distance: 0.2, 
+        lat: 43.3559241, 
+        lng: -5.8496651 
+      },
+      { 
+        type: 'transport', 
+        name: 'Parada de bus', 
+        distance: 2.8, 
+        lat: 43.3721163, 
+        lng: -5.8246176 
+      },
+      { 
+        type: 'healthcare', 
+        name: 'Centro de Salud La Lila', 
+        distance: 0.4, 
+        lat: 43.3591691, 
+        lng: -5.8469356 
+      },
+      { 
+        type: 'bank', 
+        name: 'Banco Santander', 
+        distance: 0.1, 
+        lat: 43.3570654, 
+        lng: -5.8488769 
+      }
+    ]
   },
   {
     id: '4', //Piso D
-    url: 'https://www.idealista.com/inmueble/109260462/',
-    title: 'Piso en Centro-Casco Histórico, Oviedo  ',
-    price: 219500,
+    url: 'https://www.idealista.com/inmueble/22334455/',
+    title: 'Ático en Salamanca, Madrid',
+    price: 520000,
     location: {
-      lat: 43.3619,
-      lng: -5.8556,
-      address: 'Calle Marques de Teverga 5, Oviedo',
-      zone: 'Casco Antiguo'
+      lat: 40.4328,
+      lng: -3.6795,
+      address: 'Calle Goya, 32, Madrid',
+      zone: 'Salamanca'
     },
-    rentalYield: 5.38,
-    crimeRate: 1.5,
+    rentalYield: 3.9,
+    crimeRate: 1.0,
     nearbyServices: [
-      { type: 'pharmacy', name: 'Farmacia Plaza de América', distance: 0.1, lat: 43.3609344, lng: -5.8564839 },
-      { type: 'school', name: 'IES Aramo', distance: 0.2, lat: 43.3590022, lng: -5.8579508 },
-      { type: 'supermarket', name: 'Alimerka', distance: 0.1, lat: 43.3601467, lng: -5.8560365 },
-      { type: 'transport', name: 'Parada de bus', distance: 2.9, lat: 43.3721163, lng: -5.8246176 },
-      { type: 'healthcare', name: 'Centro Médico Asturias', distance: 0.5, lat: 43.3650911, lng: -5.8478916 },
-      { type: 'bank', name: 'Banco Sabadell', distance: 0.1, lat: 43.3607093, lng: -5.8598146 }
+      { type: 'bank', name: 'Banco Santander', distance: 0.15, lat: 40.4341, lng: -3.6810 },
+      { type: 'supermarket', name: 'El Corte Inglés', distance: 0.25, lat: 40.4351, lng: -3.6778 },
+      { type: 'school', name: 'Liceo Español', distance: 0.7, lat: 40.4391, lng: -3.6742 },
+      { type: 'healthcare', name: 'Centro Médico Goya', distance: 0.3, lat: 40.4301, lng: -3.6768 },
+      { type: 'pharmacy', name: 'Farmacia Goya', distance: 0.1, lat: 40.4337, lng: -3.6805 },
+      { type: 'transport', name: 'Metro Goya', distance: 0.2, lat: 40.4308, lng: -3.6820 }
     ]
   },
   {
@@ -172,24 +208,24 @@ export const mockProperties: Property[] = [
   },
   {
     id: '7', // Piso I
-    url: 'https://www.idealista.com/inmueble/109685182/',
-    title: 'Piso en Llamaquique, Oviedo',
-    price: 265000,
+    url: 'https://www.idealista.com/inmueble/44556677/',
+    title: 'Dúplex en Salamanca, Madrid',
+    price: 680000,
     location: {
-      lat: 43.3635,
-      lng: -5.841,
-      address: 'Calle Azcarraga, Llamaquique, Oviedo',
-      zone: 'Casco Antiguo'
+      lat: 40.4338,
+      lng: -3.6805,
+      address: 'Calle Velázquez, 54, Madrid',
+      zone: 'Salamanca'
     },
-    rentalYield: 3.3,
-    crimeRate: 1.5,
+    rentalYield: 3.7,
+    crimeRate: 1.0,
     nearbyServices: [
-      { type: 'pharmacy', name: 'Farmacia Ldo. Pérez', distance: 0.1, lat: 43.3637186, lng: -5.8440887 },
-      { type: 'school', name: 'Instituto Santa María del Naranco', distance: 0.2, lat: 43.3637011, lng: -5.8457342 },
-      { type: 'supermarket', name: 'Alimerka', distance: 0.1, lat: 43.3639642, lng: -5.8433422 },
-      { type: 'transport', name: 'Parada de bus', distance: 2.9, lat: 43.3721163, lng: -5.8246176 },
-      { type: 'healthcare', name: 'Centro Médico Asturias', distance: 0.4, lat: 43.3650911, lng: -5.8478916 },
-      { type: 'bank', name: 'CaixaBank', distance: 0.1, lat: 43.3637186, lng: -5.8440887 }
+      { type: 'bank', name: 'CaixaBank', distance: 0.18, lat: 40.4354, lng: -3.6820 },
+      { type: 'supermarket', name: 'Sánchez Romero', distance: 0.22, lat: 40.4358, lng: -3.6788 },
+      { type: 'school', name: 'British Council School', distance: 0.6, lat: 40.4392, lng: -3.6755 },
+      { type: 'healthcare', name: 'Hospital Universitario', distance: 0.8, lat: 40.4410, lng: -3.6735 },
+      { type: 'pharmacy', name: 'Farmacia Velázquez', distance: 0.12, lat: 40.4349, lng: -3.6815 },
+      { type: 'transport', name: 'Metro Velázquez', distance: 0.25, lat: 40.4315, lng: -3.6835 }
     ]
   },
   {
