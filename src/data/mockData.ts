@@ -50,7 +50,7 @@ export const mockProperties: Property[] = [
       zone: 'Centro'
     },
     rentalYield: 6.8,
-    crimeRate: 2.0,
+    crimeRate: 1.5,
     nearbyServices: [
       { type: 'bank', name: 'Bankinter', distance: 0.2, lat: 43.3645, lng: -5.8519 },
       { type: 'supermarket', name: 'Alimerka', distance: 0.3, lat: 43.3661, lng: -5.8508},
@@ -128,24 +128,24 @@ export const mockProperties: Property[] = [
   },
   {
     id: '5', // Piso E
-    url: 'https://www.idealista.com/inmueble/33445566/',
-    title: 'Estudio en Salamanca, Madrid',
-    price: 320000,
+    url: 'https://www.idealista.com/inmueble/109261920/',
+    title: 'Piso en Centro-Casco Historico, Oviedo',
+    price: 169900,
     location: {
-      lat: 40.4308,
-      lng: -3.6775,
-      address: 'Calle Príncipe de Vergara, 89, Madrid',
-      zone: 'Salamanca'
+      lat: 43.357,
+      lng: -5.8415,
+      address: 'Calle Fernando Alonso Diaz',
+      zone: 'Centro'
     },
-    rentalYield: 4.0,
-    crimeRate: 1.8,
+    rentalYield: 6.34,
+    crimeRate: 1.5,
     nearbyServices: [
-      { type: 'bank', name: 'BBVA', distance: 0.25, lat: 40.4330, lng: -3.6795 },
-      { type: 'supermarket', name: 'Carrefour Express', distance: 0.15, lat: 40.4321, lng: -3.6762 },
-      { type: 'school', name: 'Colegio Ramón y Cajal', distance: 0.5, lat: 40.4353, lng: -3.6730 },
-      { type: 'healthcare', name: 'Clínica La Paz', distance: 0.45, lat: 40.4268, lng: -3.6738 },
-      { type: 'pharmacy', name: 'Farmacia Plaza', distance: 0.2, lat: 40.4326, lng: -3.6785 },
-      { type: 'transport', name: 'Metro Núñez de Balboa', distance: 0.35, lat: 40.4275, lng: -3.6810 }
+      { type: 'bank', name: 'Unicaja Banco', distance: 0.25, lat: 43.3569, lng: -5.8431 },
+      { type: 'supermarket', name: 'Carrefour Express', distance: 0.15, lat: 43.3576, lng: -5.8431 },
+      { type: 'school', name: 'Colegio CEIP San Lazaro', distance: 0.5, lat: 43.3559, lng: -5.8429 },
+      { type: 'healthcare', name: 'Centro de Salud de Otero', distance: 0.45, lat: 43.3544, lng: -5.8377 },
+      { type: 'pharmacy', name: 'Farmacia', distance: 0.2, lat: 43.3576, lng: -5.8431 },
+      { type: 'transport', name: 'Parada de Bus', distance: 0.35, lat: 43.3576, lng: -5.8431 }
     ]
   },
   {
