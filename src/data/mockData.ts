@@ -47,7 +47,7 @@ export const mockProperties: Property[] = [
       lat: 43.3649276,
       lng: -5.8516202,
       address: 'Calle Melquiades Alvarez',
-      zone: 'Centro'
+      zone: 'Casco Antiguo'
     },
     rentalYield: 6.8,
     crimeRate: 1.5,
@@ -135,7 +135,7 @@ export const mockProperties: Property[] = [
       lat: 43.357,
       lng: -5.8415,
       address: 'Calle Fernando Alonso Diaz',
-      zone: 'Centro'
+      zone: 'Casco Antiguo'
     },
     rentalYield: 6.34,
     crimeRate: 1.5,
