@@ -39,7 +39,7 @@ export interface District {
 
 export const mockProperties: Property[] = [
   {
-    id: '1',
+    id: '1', // Piso A
     url: 'https://www.idealista.com/inmueble/97904988/',
     title: 'Piso en Centro-Casco Historico, Oviedo',
     price: 199999,
@@ -61,7 +61,7 @@ export const mockProperties: Property[] = [
     ]
   },
   {
-    id: '2',
+    id: '2', // Piso B
     url: 'https://www.idealista.com/inmueble/87654321/',
     title: 'Apartamento en Vallecas, Madrid',
     price: 180000,
@@ -83,7 +83,7 @@ export const mockProperties: Property[] = [
     ]
   },
   {
-    id: '3',
+    id: '3', // Piso C
     url: 'https://www.idealista.com/inmueble/11223344/',
     title: 'Piso en Chamberí, Madrid',
     price: 380000,
@@ -105,7 +105,7 @@ export const mockProperties: Property[] = [
     ]
   },
   {
-    id: '4',
+    id: '4', //Piso D
     url: 'https://www.idealista.com/inmueble/22334455/',
     title: 'Ático en Salamanca, Madrid',
     price: 520000,
@@ -127,7 +127,7 @@ export const mockProperties: Property[] = [
     ]
   },
   {
-    id: '5',
+    id: '5', // Piso E
     url: 'https://www.idealista.com/inmueble/33445566/',
     title: 'Estudio en Salamanca, Madrid',
     price: 320000,
@@ -149,7 +149,7 @@ export const mockProperties: Property[] = [
     ]
   },
   {
-    id: '6',
+    id: '6', // Piso F
     url: 'https://www.idealista.com/inmueble/44556677/',
     title: 'Dúplex en Salamanca, Madrid',
     price: 680000,
@@ -171,7 +171,7 @@ export const mockProperties: Property[] = [
     ]
   },
   {
-    id: '7',
+    id: '7', // Piso I
     url: 'https://www.idealista.com/inmueble/44556677/',
     title: 'Dúplex en Salamanca, Madrid',
     price: 680000,
@@ -193,7 +193,7 @@ export const mockProperties: Property[] = [
     ]
   },
   {
-    id: '8',
+    id: '8', // Piso N
     url: 'https://www.idealista.com/inmueble/44556677/',
     title: 'Dúplex en Salamanca, Madrid',
     price: 680000,
@@ -215,7 +215,7 @@ export const mockProperties: Property[] = [
     ]
   },
   {
-    id: '9',
+    id: '9', // Piso O
     url: 'https://www.idealista.com/inmueble/44556677/',
     title: 'Dúplex en Salamanca, Madrid',
     price: 680000,
@@ -237,7 +237,7 @@ export const mockProperties: Property[] = [
     ]
   },
   {
-    id: '10',
+    id: '10', // Piso P
     url: 'https://www.idealista.com/inmueble/44556677/',
     title: 'Dúplex en Salamanca, Madrid',
     price: 680000,
