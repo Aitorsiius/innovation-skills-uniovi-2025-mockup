@@ -10,7 +10,6 @@ export interface Property {
     zone: string;
   };
   rentalYield: number;
-  crimeRate: number; // 0 to 5
   nearbyServices: {
     type: 'bank' | 'supermarket' | 'school' | 'healthcare' | 'pharmacy' | 'transport';
     name: string;
@@ -41,23 +40,22 @@ export const mockProperties: Property[] = [
   {
     id: '1', // Piso A
     url: 'https://www.idealista.com/inmueble/97904988/',
-    title: 'Piso en Centro-Casco Historico, Oviedo',
+    title: 'Piso en Casco Antiguo, Oviedo',
     price: 199999,
     location: {
       lat: 43.3649276,
       lng: -5.8516202,
-      address: 'Calle Melquiades Alvarez',
+      address: 'Calle Melquiades Álvarez',
       zone: 'Casco Antiguo'
     },
     rentalYield: 6.8,
-    crimeRate: 1.5,
     nearbyServices: [
       { type: 'bank', name: 'Bankinter', distance: 0.05, lat: 43.3645, lng: -5.8519 },
       { type: 'supermarket', name: 'Alimerka', distance: 0.15, lat: 43.3661, lng: -5.8508 },
       { type: 'school', name: 'Colegio La Compañía de Jesús', distance: 0.11, lat: 43.3654, lng: -5.8504 },
       { type: 'healthcare', name: 'Centro Médico Campoamor', distance: 0.08, lat: 43.3656, lng: -5.8520 },
       { type: 'pharmacy', name: 'Farmacia Cavia', distance: 0.10, lat: 43.3649, lng: -5.8504 },
-      { type: 'transport', name: 'Parada de Bus', distance: 0.06, lat: 43.3648, lng: -5.8523 }
+      { type: 'transport', name: 'Uría La Llave', distance: 0.06, lat: 43.3648, lng: -5.8523 }
     ]
   },
   {
@@ -68,11 +66,10 @@ export const mockProperties: Property[] = [
     location: {
       lat: 43.3598521,
       lng: -5.8474118,
-      address: 'Calle Rosal, Oviedo',
+      address: 'Calle Rosal',
       zone: 'Casco Antiguo'
     },
     rentalYield: 5.09,
-    crimeRate: 4.0,
     nearbyServices: [
       { type: 'bank', name: 'ABANCA', distance: 0.2, lat: 43.36038360479134, lng: -5.848396495162587 },
       { type: 'supermarket', name: 'Alimerka', distance: 0.1, lat: 43.35964464997573, lng: -5.848506455198496 },
@@ -85,21 +82,20 @@ export const mockProperties: Property[] = [
   {
     id: '3', // Piso C
     url: 'https://www.idealista.com/inmueble/109725657/',
-    title: 'Piso en Casco-Centro Histórico, Oviedo',
+    title: 'Piso en Casco Antiguo, Oviedo',
     price: 229999,
     location: {
       lat: 43.3559,
       lng: -5.8481,
-      address: 'Calle Sacramento 24, Oviedo',
+      address: 'Calle Sacramento, 24',
       zone: 'Casco Antiguo'
     },
     rentalYield: 5.04,
-    crimeRate: 1.5,
     nearbyServices: [
       { type: 'pharmacy', name: 'Farmacia Muñoz Degraín', distance: 0.14, lat: 43.3570654, lng: -5.8488769 },
       { type: 'school', name: 'IES Alfonso II', distance: 0.23, lat: 43.3566806, lng: -5.8508095 },
-      { type: 'supermarket', name: 'Alimerka Muñoz Degraín', distance: 0.13, lat: 43.3559241, lng: -5.8496651 },
-      { type: 'transport', name: 'Parada Bus Gonzalez Besada', distance: 0.17, lat: 43.3564, lng: -5.8501 },
+      { type: 'supermarket', name: 'Alimerka', distance: 0.13, lat: 43.3559241, lng: -5.8496651 },
+      { type: 'transport', name: 'González Besada', distance: 0.17, lat: 43.3564, lng: -5.8501 },
       { type: 'healthcare', name: 'Centro de Salud La Lila', distance: 0.37, lat: 43.3591691, lng: -5.8469356 },
       { type: 'bank', name: 'Banco Santander', distance: 0.14, lat: 43.3570654, lng: -5.8488769 }
     ]
@@ -107,21 +103,20 @@ export const mockProperties: Property[] = [
   {
     id: '4', // Piso D
     url: 'https://www.idealista.com/inmueble/109260462/',
-    title: 'Piso en Centro-Casco Histórico, Oviedo',
+    title: 'Piso en Casco Antiguo, Oviedo',
     price: 219500,
     location: {
       lat: 43.3619,
       lng: -5.8556,
-      address: 'Calle Marques de Teverga 5, Oviedo',
+      address: 'Calle Marques de Teverga, 5',
       zone: 'Casco Antiguo'
     },
     rentalYield: 5.38,
-    crimeRate: 1.5,
     nearbyServices: [
       { type: 'pharmacy', name: 'Farmacia Plaza de América', distance: 0.13, lat: 43.3609344, lng: -5.8564839 },
       { type: 'school', name: 'IES Aramo', distance: 0.37, lat: 43.3590022, lng: -5.8579508 },
-      { type: 'supermarket', name: 'Alimerka Dr. Alfredo Martínez', distance: 0.20, lat: 43.3601467, lng: -5.8560365 },
-      { type: 'transport', name: 'Parada Plaza de América', distance: 0.13, lat: 43.3611000, lng: -5.8568000 },
+      { type: 'supermarket', name: 'Alimerka', distance: 0.20, lat: 43.3601467, lng: -5.8560365 },
+      { type: 'transport', name: 'Plaza de América', distance: 0.13, lat: 43.3611000, lng: -5.8568000 },
       { type: 'healthcare', name: 'Centro Médico Asturias', distance: 0.71, lat: 43.3650911, lng: -5.8478916 },
       { type: 'bank', name: 'Banco Sabadell', distance: 0.36, lat: 43.3607093, lng: -5.8598146 }
     ]
@@ -129,23 +124,22 @@ export const mockProperties: Property[] = [
   {
     id: '5', // Piso E
     url: 'https://www.idealista.com/inmueble/109261920/',
-    title: 'Piso en Centro-Casco Historico, Oviedo',
+    title: 'Piso en Casco Antiguo, Oviedo',
     price: 169900,
     location: {
       lat: 43.357,
       lng: -5.8415,
-      address: 'Calle Fernando Alonso Diaz',
+      address: 'Calle Fernando Alonso Díaz',
       zone: 'Casco Antiguo'
     },
     rentalYield: 6.34,
-    crimeRate: 1.5,
     nearbyServices: [
       { type: 'bank', name: 'Unicaja Banco', distance: 0.13, lat: 43.3569, lng: -5.8431 },
       { type: 'supermarket', name: 'Carrefour Express', distance: 0.15, lat: 43.3576, lng: -5.8431 },
-      { type: 'school', name: 'Colegio CEIP San Lazaro', distance: 0.17, lat: 43.3559, lng: -5.8429 },
+      { type: 'school', name: 'CEIP San Lázaro', distance: 0.17, lat: 43.3559, lng: -5.8429 },
       { type: 'healthcare', name: 'Centro de Salud de Otero', distance: 0.42, lat: 43.3544, lng: -5.8377 },
       { type: 'pharmacy', name: 'Farmacia', distance: 0.15, lat: 43.3576, lng: -5.8431 },
-      { type: 'transport', name: 'Parada de Bus (San Lázaro)', distance: 0.15, lat: 43.3576, lng: -5.8431 }
+      { type: 'transport', name: 'San Lázaro', distance: 0.15, lat: 43.3576, lng: -5.8431 }
     ]
   },
   {
@@ -156,11 +150,10 @@ export const mockProperties: Property[] = [
     location: {
       lat: 43.3613905,
       lng: -5.8440664,
-      address: 'Calle San Antonio 9, Oviedo',
+      address: 'Calle San Antonio, 9',
       zone: 'Casco Antiguo'
     },
     rentalYield: 9.68,
-    crimeRate: 1.0,
     nearbyServices: [
       { type: 'bank', name: 'Sabadell', distance: 0.4, lat: 43.3612138, lng: -5.8470829 },
       { type: 'supermarket', name: 'Mercadona', distance: 0.4, lat: 43.3596228, lng: -5.8460644 },
@@ -178,16 +171,15 @@ export const mockProperties: Property[] = [
     location: {
       lat: 43.3635,
       lng: -5.841,
-      address: 'Calle Azcarraga, Llamaquique, Oviedo',
+      address: 'Calle Azcárraga',
       zone: 'Casco Antiguo'
     },
     rentalYield: 3.3,
-    crimeRate: 1.5,
     nearbyServices: [
       { type: 'pharmacy', name: 'Farmacia Ldo. Pérez', distance: 0.25, lat: 43.3637186, lng: -5.8440887 },
       { type: 'school', name: 'Instituto Santa María del Naranco', distance: 0.38, lat: 43.3637011, lng: -5.8457342 },
-      { type: 'supermarket', name: 'Alimerka Foncalada', distance: 0.19, lat: 43.3639642, lng: -5.8433422 },
-      { type: 'transport', name: 'Parada Calle Azcárraga', distance: 0.05, lat: 43.3633000, lng: -5.8415000 },
+      { type: 'supermarket', name: 'Alimerka', distance: 0.19, lat: 43.3639642, lng: -5.8433422 },
+      { type: 'transport', name: 'Calle Azcárraga', distance: 0.05, lat: 43.3633000, lng: -5.8415000 },
       { type: 'healthcare', name: 'Centro Médico Asturias', distance: 0.58, lat: 43.3650911, lng: -5.8478916 },
       { type: 'bank', name: 'CaixaBank', distance: 0.25, lat: 43.3637186, lng: -5.8440887 }
     ]
@@ -200,11 +192,10 @@ export const mockProperties: Property[] = [
     location: {
       lat: 43.3634546,
       lng: -5.8639711,
-      address: 'Calle Miguel Ángel Blanco 59, Oviedo',
+      address: 'Calle Miguel Ángel Blanco, 59',
       zone: 'La Argañosa'
     },
     rentalYield: 7.65,
-    crimeRate: 1.0,
     nearbyServices: [
       { type: 'bank', name: 'BBVA', distance: 1.0, lat: 43.36125, lng: -5.85449 },
       { type: 'supermarket', name: 'Covirán', distance: 0.2, lat: 43.3646897, lng: -5.8646787 },
@@ -222,11 +213,10 @@ export const mockProperties: Property[] = [
     location: {
       lat: 43.3582818,
       lng: -5.8693566,
-      address: 'Calle Fuertes Acevedo 43, Oviedo',
+      address: 'Calle Fuertes Acevedo, 43',
       zone: 'Buenavista'
     },
     rentalYield: 9.21,
-    crimeRate: 1.0,
     nearbyServices: [
       { type: 'bank', name: 'Sabadell', distance: 0.1, lat: 43.3581, lng: -5.87027 },
       { type: 'supermarket', name: 'Alimerka', distance: 0.2, lat: 43.35857, lng: -5.86885 },
@@ -244,11 +234,10 @@ export const mockProperties: Property[] = [
     location: {
       lat: 43.3538199,
       lng: -5.8582278,
-      address: 'Avenida de las Segadas, Oviedo',
+      address: 'Avenida de las Segadas',
       zone: 'Montecerrao'
     },
     rentalYield: 6.08,
-    crimeRate: 1.0,
     nearbyServices: [
       { type: 'bank', name: 'Sabadell', distance: 0.4, lat: 43.35571, lng: -5.85861 },
       { type: 'supermarket', name: 'Mercadona', distance: 0.5, lat: 43.35458, lng: -5.85975 },
@@ -292,7 +281,7 @@ export const mockZones: Zone[] = [
   { id: '21', name: 'La Ería', crimeRate: 1.8, coordinates: { lat: 43.3620, lng: -5.8720 }, districtId: '5' },
   { id: '22', name: 'Buenavista', crimeRate: 2.3, coordinates: { lat: 43.3635, lng: -5.8670 }, districtId: '5' },
   { id: '23', name: 'El Cristo', crimeRate: 2.0, coordinates: { lat: 43.3700, lng: -5.8780 }, districtId: '5' },
-  { id: '24', name: 'Montecerrado', crimeRate: 2.9, coordinates: { lat: 43.3660, lng: -5.8650 }, districtId: '5' },
+  { id: '24', name: 'Montecerrao', crimeRate: 2.9, coordinates: { lat: 43.3660, lng: -5.8650 }, districtId: '5' },
     { id: '25', name: 'Olivares', crimeRate: 2.9, coordinates: { lat: 43.3660, lng: -5.8650 }, districtId: '5' },
 
   // Distrito 6
