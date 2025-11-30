@@ -74,12 +74,12 @@ export const mockProperties: Property[] = [
     rentalYield: 5.09,
     crimeRate: 4.0,
     nearbyServices: [
-      { type: 'bank', name: 'BBVA', distance: 0.4, lat: 40.3933, lng: -3.6525 },
-      { type: 'supermarket', name: 'Carrefour Express', distance: 0.2, lat: 40.3915, lng: -3.6495 },
-      { type: 'school', name: 'CEIP Villa de Vallecas', distance: 0.6, lat: 40.3951, lng: -3.6475 },
-      { type: 'healthcare', name: 'Centro de Salud Vallecas', distance: 0.5, lat: 40.3852, lng: -3.6475 },
-      { type: 'pharmacy', name: 'Farmacia Vallecas', distance: 0.3, lat: 40.3924, lng: -3.6538 },
-      { type: 'transport', name: 'Metro Portazgo', distance: 0.7, lat: 40.3834, lng: -3.6448 }
+      { type: 'bank', name: 'ABANCA', distance: 0.2, lat: 43.36038360479134, lng: -5.848396495162587 },
+      { type: 'supermarket', name: 'Alimerka', distance: 0.1, lat: 43.35964464997573, lng: -5.848506455198496 },
+      { type: 'school', name: 'IES Alfonso II', distance: 0.3, lat: 43.359192277594964, lng: -5.8502981705654475 },
+      { type: 'healthcare', name: 'Centro de Salud Paulino Prieto', distance: 0.1, lat: 43.35912384227214, lng: -5.847023204232178 },
+      { type: 'pharmacy', name: 'Farmacia Cristina Ordiales', distance: 0.1, lat: 43.35974029796007, lng: -5.847747387291729 },
+      { type: 'transport', name: 'Martínez Marina', distance: 0.2, lat: 43.35885094487873, lng: -5.846776430543832 }
     ]
   },
   {
