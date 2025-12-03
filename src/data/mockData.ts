@@ -246,6 +246,120 @@ export const mockProperties: Property[] = [
       { type: 'pharmacy', name: 'Farmacia Hermanos Escobedo', distance: 0.6, lat: 43.35617, lng: -5.86062 },
       { type: 'transport', name: 'Joaquín Villa Cañal', distance: 0.6, lat: 43.35418, lng: -5.86141 }
     ]
+  },
+  {
+    id: '11',
+    url: 'https://www.idealista.com/inmueble/10487166/',
+    title: 'Piso en La Corredoria, Oviedo',
+    price: 149000,
+    location: {
+      lat: 43.382950,
+      lng: -5.822920,
+      address: 'Calle Francisco Pintado Fe, 18',
+      zone: 'La Corredoria'
+    },
+    rentalYield: 6.45, 
+    nearbyServices: [
+      { 
+        type: 'supermarket', 
+        name: 'Mercadona', 
+        distance: 0.14, 
+        lat: 43.384120, 
+        lng: -5.821850 
+      },
+      { 
+        type: 'healthcare', 
+        name: 'Centro de Salud La Corredoria', 
+        distance: 0.15, 
+        lat: 43.381890, 
+        lng: -5.824100 
+      },
+      { 
+        type: 'pharmacy', 
+        name: 'Farmacia Ldo. José Manuel', 
+        distance: 0.05, 
+        lat: 43.383100, 
+        lng: -5.823150 
+      },
+      { 
+        type: 'transport', 
+        name: 'Estación Renfe La Corredoria', 
+        distance: 0.55, 
+        lat: 43.386340, 
+        lng: -5.828210 
+      },
+      { 
+        type: 'school', 
+        name: 'IES La Corredoria', 
+        distance: 0.42, 
+        lat: 43.385510, 
+        lng: -5.826050 
+      },
+      { 
+        type: 'bank', 
+        name: 'Unicaja Banco', 
+        distance: 0.04, 
+        lat: 43.382600, 
+        lng: -5.823010 
+      }
+    ]
+  },
+  {
+    id: '12',
+    url: 'https://www.idealista.com/inmueble/10734615/', 
+    title: 'Piso en Ventanielles, Oviedo',
+    price: 68500,
+    location: {
+      lat: 43.367120,
+      lng: -5.830150,
+      address: 'Calle Río Sella, 12',
+      zone: 'Ventanielles'
+    },
+    rentalYield: 7.85,
+    nearbyServices: [
+      { 
+        type: 'supermarket', 
+        name: 'Supermercado DIA', 
+        distance: 0.18, 
+        lat: 43.366510, 
+        lng: -5.828540 
+      },
+      { 
+        type: 'healthcare', 
+        name: 'Centro de Salud Ventanielles', 
+        distance: 0.25, 
+        lat: 43.368210, 
+        lng: -5.827550 
+      },
+      { 
+        type: 'school', 
+        name: 'Colegio Público Ventanielles', 
+        distance: 0.30, 
+        lat: 43.369100, 
+        lng: -5.829200 
+      },
+      { 
+        type: 'pharmacy', 
+        name: 'Farmacia Lda. Maria Teresa', 
+        distance: 0.22, 
+        lat: 43.368050, 
+        lng: -5.828100 
+      },
+      { 
+        type: 'transport', 
+        name: 'Parada Tenderina Baja', 
+        distance: 0.15, 
+        lat: 43.366800, 
+        lng: -5.831500 
+      },
+      { 
+        type: 'bank', 
+        name: 'Cajero Unicaja', 
+        distance: 0.20, 
+        lat: 43.366200, 
+        lng: -5.832100 
+      }
+    ]
   }
 ];
 
