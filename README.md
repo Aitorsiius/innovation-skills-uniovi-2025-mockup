@@ -4,7 +4,7 @@ Este proyecto fue desarrollado como parte del programa Innovation Skills de la U
 
 ## 🏠 Descripción del Proyecto
 
-**Mockup de Búsqueda de Propiedades** es una aplicación web interactiva diseñada para facilitar la búsqueda y evaluación de propiedades inmobiliarias, incorporando información sobre seguridad y tasas de criminalidad por zonas, así como servicios cercanos.
+**Mockup de Búsqueda de Propiedades** es una aplicación web interactiva diseñada para facilitar la búsqueda y evaluación de propiedades inmobiliarias, incorporando información sobre seguridad y tasas de criminalidad por zonas, servicios cercanos, y cálculo de rentabilidades en el caso de alquilar la propiedad.
 
 ## ✨ Características Principales
 
